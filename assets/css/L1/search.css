@@ -1,0 +1,396 @@
+/*------------------------ Jimmy Edit ---------------------*/
+.sea-container {
+    height: 7.9rem;
+    margin: 0.6rem 0.6rem 0rem 0.6rem;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-sea-photo {
+    height: 5.1rem;
+    width: auto;
+}
+
+.bc-top-bar {
+    width: 90%;
+    height: 3.9rem;
+}
+
+.bc-wh {
+    width: 100%;
+    height: 100%;
+}
+
+.bc-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: #fff;
+    z-index: 1000;
+    height: 3.9rem;
+    border-bottom: 1px solid #E28FA1;
+}
+
+.bc-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: center; /* Safari 6.1+ */
+    -webkit-align-items: center; /* Safari 7.0+ */
+}
+
+/*header end*/
+/*footer start*/
+
+/*footer end*/
+
+.font-xihei {
+    font-family: STXihei;
+}
+
+/* ----------- Nexus 5 and 6 ----------- */
+
+@media screen and (min-width: 320px) and (max-width: 411px) and (min-height: 659px) {
+    .bc-container {
+        margin-top: 130px;
+    }
+
+    .bc-row-two {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 401px) and (min-height: 659px) {
+    .bc-container {
+        margin-top: 45px;
+    }
+
+    .bc-row-two {
+        margin-top: 0px;
+    }
+}
+
+/*i-6*/
+
+@media screen and (min-width: 320px) and (min-height: 769px) {
+    .bc-container {
+        margin-top: 0px;
+    }
+}
+
+/* ----------- Nexus 5 and 6 ----------- */
+/* ----------- iPhone 4 and 4S ----------- */
+
+@media only screen and (min-width: 320px) {
+    .bc-row-one {
+        display: flex;
+        width: 100%;
+        height: 350px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bc-row-one-div1-card {
+        width: 280px;
+        height: 362px;
+        border-radius: 5px;
+        border: 1px solid black;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+    }
+}
+
+/* ----------- header start --------------*/
+.bc-flex2 {
+    width: 100%;
+    height: 50px;
+}
+
+/*------------ container start----------*/
+.search-container {
+    width: 100%;
+    height: 567px;
+    margin-top: 3.9rem;
+}
+
+.bc-tag1 {
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 100%;
+}
+
+/*--------------------------先看人－搜索页面－Start-----------------------------*/
+.search-top-box {
+    height: 100%;
+    width: 100%;
+    /*border-radius: 0.3rem;*/
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+}
+
+.search-top-box-cancel {
+    justify-content: center;
+    -webkit-justify-content: center;
+    margin-right: 0.6rem;
+    width: 4rem;
+    height: 100%;
+}
+
+.search-top-box-image {
+    z-index: 2;
+    padding-left: 1.3rem;
+    height: 1.5rem;
+    width: auto;
+}
+
+.search-top-box-form {
+    width: 100%;
+    height: 2.25rem;
+    border-radius: 0.4rem;
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+    border: 1px solid #D92D53;
+}
+
+.search-wrapper {
+    width: 33.834rem;
+    margin-left: 0.6rem;
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+}
+
+.search-box {
+    width: 94%;
+    height: 2rem;
+    border: none;
+    outline: 0;
+    margin-left: 3.6rem;
+}
+
+.search-box:focus .search-top-box-form {
+    box-shadow: 0 0 15px 5px #b0e0ee;
+    border: 2px solid #bebede;
+}
+
+.close-icon {
+    border: 1px solid transparent;
+    background-color: transparent;
+    display: inline-block;
+    vertical-align: middle;
+    outline: 0;
+    cursor: pointer;
+    position: relative;
+    padding: 10px;
+}
+
+.close-icon:after {
+    content: "X";
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background-color: #ffffff;
+    color: #FA9595;
+    z-index: 1;
+    right: 1px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 2px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: normal;
+    box-shadow: 0 0 2px #E50F0F;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: center; /* Safari 6.1+ */
+    -webkit-align-items: center; /* Safari 7.0+ */
+}
+
+.search-box:not(:valid) ~ .close-icon {
+    display: none;
+}
+
+/*.search-top-box-input[type="search"]::-webkit-search-cancel-button {*/
+/* Remove default */
+/*-webkit-appearance: none;*/
+
+/* Now your own custom styles */
+/*height: 3rem;*/
+/*width:3rem;*/
+/*margin-right: -0.2rem;*/
+/*margin-top: 0.3rem;*/
+/*background-color: #003399;*/
+/*background: url(../../images/cancel_search_big.png);*/
+/*background-repeat: no-repeat;*/
+/*background-size: 1.5rem auto;*/
+/*background-color: red;*/
+/* Will place small red box on the right of input (positioning carries over) */
+/*}*/
+
+/*
+examples
+
+:not(.default)::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+.example1::-webkit-search-cancel-button:after {
+    content: '';
+    display: block;
+    width: 14px;
+    height: 10px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAn0lEQVR42u3UMQrDMBBEUZ9WfQqDmm22EaTyjRMHAlM5K+Y7lb0wnUZPIKHlnutOa+25Z4D++MRBX98MD1V/trSppLKHqj9TTBWKcoUqffbUcbBBEhTjBOV4ja4l4OIAZThEOV6jHO8ARXD+gPPvKMABinGOrnu6gTNUawrcQKNCAQ7QeTxORzle3+sDfjJpPCqhJh7GixZq4rHcc9l5A9qZ+WeBhgEuAAAAAElFTkSuQmCC);
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position: top left;
+}
+
+.example2::-webkit-search-cancel-button:after {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 12px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABSAQMAAAD94hHYAAAABlBMVEUAAACXl5cNUA2AAAAAAnRSTlP9B0nlx2sAAABxSURBVHhe7dK9DYYgFIXhYywsGYFRHA3djMRFGIGS4gb0XoRg4s9XfRVvcfIMcJCOnKwVLzCN52pAFxOgxISzySIUj1f7Ow/PTm5O3JB+9ha1L15JOfN/d3fLDz++qpkxW7EpG9KrffbIDo0pe2LX7A7qXBSslhfN8AAAAABJRU5ErkJggg==);
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-position: top left;
+}
+
+.example3 {
+    position: relative;
+}
+
+.example3::-webkit-search-cancel-button:after {
+    position: absolute;
+    content: 'DEL';
+    display: block;
+    top: 0;
+    right: 0.5em;
+    background-color: yellow;
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position: top left;
+}
+
+*/
+
+.search-top-box-input[placeholder], .search-keyword {
+    color: red !important;
+}
+
+.search-top-box-input::-webkit-input-placeholder, .search-top-box-input::-webkit-input-placeholder {
+    color: #ff0000;
+}
+
+.search-top-box-input:-moz-placeholder, .search-top-box-input:-moz-placeholder {
+    color: #ff0000;
+}
+
+.search-top-box-input::-moz-placeholder, .search-top-box-input::-moz-placeholder {
+    color: #ff0000;
+}
+
+.search-top-box-input:-ms-input-placeholder, .search-top-box-input:-ms-input-placeholder {
+    color: #ff0000;
+}
+
+.res-url {
+    display: flex;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 11px;
+    background-color: #FFFFFF;
+    height: 15%;
+}
+
+.search-col1 {
+    display: flex;
+    height: 100%;
+    width: 20%;
+}
+
+.search-col2 {
+    display: block;
+    height: 100%;
+    width: 80%;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+
+.search-col1 img {
+    display: block;
+}
+
+.search-col2-row1 {
+    float: margin-top;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.search-col2-row1 font {
+    width: 20%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.search-col2-row1-name {
+    text-align: center;
+    font-size: 16px;
+    color: #d82e57;
+}
+
+.search-col2-row1-role {
+    font-size: 12px;
+    display: flex;
+    align-items: flex-end;
+    padding-top: 0.3rem;
+    color: grey;
+}
+
+.search-col2-row2 {
+    float: left;
+    width: 100%;
+    height: 30%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.search-col2-row2 font {
+    font-size: 13px;
+}
+
+.search-col2-row3 {
+    float: left;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.search-col2-row3 font {
+    font-size: 13px;
+
+}
+
+.search-background {
+    background-color: #ebebeb;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 1px;
+}
+
+/*--------------------------------先看人－搜索页面－End--------------------------------------*/
+

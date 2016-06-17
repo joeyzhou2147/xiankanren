@@ -1,0 +1,652 @@
+/*!
+ * Xiankanren
+ * Copyright 2011-2015 Twitter, Inc.
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+/*header start*/
+
+.bc-top-bar {
+    width: 90%;
+    height: 50px;
+}
+
+.bc-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.half-width {
+    width: 50%;
+}
+
+/*header end*/
+
+.font-xihei {
+    font-family: STXihei;
+}
+
+.image-cropper {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px lightgray solid;
+}
+
+.profile-image {
+    width: auto;
+    max-height: 170px;
+    /*change image size here*/
+}
+
+/*--------------------------先看人－Me 页面－Start-----------------------------*/
+.bc-me-3div-container {
+    height: 100%;
+}
+
+.me-3div-background {
+    background-color: #EFEFEF;
+    z-index: -1;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.content-part {
+    width: 100%;
+    height: 90%;
+}
+
+.option-part {
+    width: 100%;
+    height: 10%;
+}
+
+.me-3div-row1 {
+    width: 90%;
+    height: 80%;
+    margin: auto auto;
+}
+
+.me-3div-row2 {
+    width: 100%;
+    height: 20%;
+
+}
+
+.ch-left-border {
+    padding-right: 5px;
+    border-left: 1px solid #f5cbd5;
+}
+
+.margin-10px {
+    padding-left: 10px;
+}
+
+.margin-5px {
+    padding-left: 5px;
+}
+
+.tag {
+    padding-top: 15px;
+}
+
+.notify-tit {
+    font-size: 14px;
+    width: 40px;
+    height: 25px;
+    padding-top: 4px;
+    margin-right: 5px;
+}
+
+.notify-row1 {
+    display: flex;
+
+}
+
+.notify-row2 {
+    display: flex;
+}
+
+.notify-row3 {
+    display: flex;
+}
+
+.notify-col1 {
+    display: flex;
+    height: 100%;
+    width: 25%;
+}
+
+.notify-col2 {
+    height: 100%;
+    width: 75%;
+    padding-right: 10px;
+}
+
+.notify-col2-row1 {
+    float: margin-top;
+    width: 100%;
+    height: 30%;
+    align-items: flex-end;
+    display: flex;
+}
+
+.notify-col2-row1 font {
+    width: 20%;
+    height: 30px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.notify-col2-row1-name {
+    font-size: 20px;
+}
+
+.notify-col2-row2 {
+    float: left;
+    width: 100%;
+    height: 40%;
+}
+
+.notify-col2-row2 font {
+    font-size: 14px;
+}
+
+.notify-col2-row3 {
+    float: left;
+    width: 100%;
+    height: 20%;
+}
+
+.notify-col2-row3 font {
+    font-size: 12px;
+
+}
+
+.notify-border {
+    margin-left: 20px;
+    margin-top: 20px;
+    border-bottom: 2px solid #DCDCDC;
+}
+
+.notify-button {
+    height: 50%;
+    width: 35%;
+}
+
+.notify-button-row1 {
+    width: 100%;
+    height: 50%;
+}
+
+.notify-button-row2 {
+    width: 100%;
+    height: 40%;
+}
+
+.iframePage {
+    width: 100%;
+    height: 100%;
+    margin: auto auto;
+}
+
+.option-1 {
+    width: 50%;
+    height: 100%;
+}
+
+.option-2 {
+    width: 50%;
+    height: 100%;
+}
+
+.option-font-style {
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+.greybubble {
+    background: #e2e2e2;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.whitebubble {
+    background: white;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.whitebubble-bottom-left {
+    background: white;
+    position: relative;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0;
+
+}
+
+.whitebubble-top-left-right {
+    background: white;
+    position: relative;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.greybubble-top-right-bottom-left-right {
+    background-color: #e2e2e2;
+    position: relative;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0;
+}
+
+.whitebubble-top-right-bottom-left-right {
+    background-color: #FFFFFF;
+    position: relative;
+    border-top-left-radius: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.whitebackground-right-option {
+    background-color: #FFFFFF;
+    position: relative;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0;
+}
+
+.option-insert {
+    height: 100%;
+    width: 100%;
+}
+
+.tag-cover-div {
+    position: absolute;
+    top: 0;
+    z-index: 8;
+    margin-left: 6px;
+    width: 100%;
+    visibility: hidden;
+}
+
+.card-cover-div {
+    z-index: 7;
+}
+
+.notify-cover-div {
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    width: 100%;
+}
+
+/*--------------------------------先看人－Me 页面－End--------------------------------------*/
+
+/*--------------------------------先看人－Me Tag 页面－Start--------------------------------------*/
+.inner-tag-HTML {
+    /*这里指定网页中部宽度*/
+    height: 125px;
+    width: 328px;
+    background-color: transparent;
+    clear: both;
+    overflow: auto;
+    overflow-x: hidden
+}
+
+.bc-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greybubble {
+    background: #EFEFEF;
+    position: relative;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.darkgreybubble {
+    background: grey;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.tag-inner-content {
+    height: 98%;
+    width: 100%;
+
+}
+
+.tag-inner-co {
+    height: 66%;
+    width: 90%;
+}
+
+.tag-inner-option {
+    height: 100%;
+    width: 90%;
+}
+
+.tag-inner-cancel {
+    height: 100%;
+    width: 10%;
+}
+
+.tag-inner-split {
+    height: 100%;
+    width: 50%;
+}
+
+.tag-inner-split-vertical {
+    width: 100%;
+    height: 33.33%;
+}
+
+.tag-inner-split-smoption {
+    height: 15px;
+    width: 51px;
+    border: 1px solid #595858;
+}
+
+iframe {
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: initial;
+    border-image-source: none;
+
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 2px;
+    border-left-width: 0px;
+}
+
+.option-font {
+    font-size: 11px;
+    color: #595858;
+}
+
+/*--------------------------------先看人－Me Tag 页面－End--------------------------------------*/
+
+/*--------------------------------先看人－Me Card 页面－Start--------------------------------------*/
+
+.inner-card-HTML {
+    /*这里指定网页中部宽度*/
+    height: 340px;
+    background-color: transparent;
+    clear: both;
+    overflow: auto;
+    overflow-x: hidden
+}
+
+.bc-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-card-row1 {
+    width: 100%;
+    height: 4%;
+    padding-top: 20px;
+
+}
+
+.inner-card-row1-content {
+    float: right;
+    padding-right: 20px;
+}
+
+.inner-card-row1-pic {
+
+}
+
+.inner-card-row1-word {
+    margin-left: 10px;
+}
+
+.inner-card-row2 {
+    width: 100%;
+    height: 15%;
+}
+
+.inner-card-row2-col2-row1-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.inner-card-row2-col2-row1-role {
+    font-size: 14px;
+}
+
+.inner-card-row2-col2 {
+    margin-left: 20px;
+}
+
+.inner-card-row3 {
+    width: 100%;
+    height: 8%;
+}
+
+.inner-card-row3-content {
+    width: 80%;
+    height: 100%;
+    border-bottom: 1px solid #EFEFEF;
+    margin: auto auto;
+    font-size: 12px;
+}
+
+.inner-card-row4 {
+    width: 100%;
+    height: 10%;
+}
+
+.inner-card-row4-content {
+    width: 80%;
+    height: 80%;
+    border-bottom: 1px solid #EFEFEF;
+    margin: auto auto;
+    font-size: 12px;
+}
+
+.inner-card-row5 {
+    width: 100%;
+    height: 40%;
+}
+
+.inner-card-row5-video-image {
+    width: 270px;
+    height: auto;
+}
+
+.inner-card-row3-content-dis {
+    margin-right: 4px;
+}
+
+/*--------------------------------先看人－Me Card 页面－End--------------------------------------*/
+
+/*--------------------------------先看人－Me Notify 页面－Start--------------------------------------*/
+
+.inner-notify-HTML {
+    width: 337px; /*这里指定网页中部宽度*/
+    height: 449px;
+    background-color: transparent;
+    clear: both;
+    overflow: auto;
+    overflow-x: hidden
+}
+
+.bc-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.me-3div-background {
+    background-color: #EFEFEF;
+    z-index: -1;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.talkbubble {
+    background: white;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.ch-left-border {
+    padding-right: 5px;
+    border-left: 1px solid #f5cbd5;
+}
+
+.margin-10px {
+    padding-left: 10px;
+}
+
+.margin-5px {
+    padding-left: 5px;
+}
+
+.tag {
+    padding-top: 15px;
+}
+
+.notify-tit {
+    font-size: 14px;
+    width: 40px;
+    height: 25px;
+    padding-top: 4px;
+    margin-right: 5px;
+}
+
+.notify-row1 {
+    display: flex;
+
+    height: 20%;
+
+}
+
+.notify-row2 {
+    display: flex;
+
+    height: 20%;
+}
+
+.notify-row3 {
+    display: flex;
+
+    height: 20%;
+}
+
+.notify-col1 {
+    display: flex;
+    height: 100%;
+    width: 25%;
+}
+
+.notify-col2 {
+    height: 100%;
+    width: 100%;
+    padding-right: 5%;
+    margin-left: 5px;
+}
+
+.notify-col2-row1 {
+    float: margin-top;
+    width: 100%;
+    height: 30%;
+    align-items: flex-end;
+    display: flex;
+    text-align: left;
+}
+
+.notify-col2-row1 font {
+    width: 20%;
+    height: 30px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.notify-col2-row1-name {
+    font-size: 20px;
+}
+
+.notify-col2-row2 {
+    float: left;
+    width: 100%;
+    text-align: left;
+    justify-content: flex-start;
+    overflow: auto;
+    text-overflow: ellipsis;
+    height: 40px;
+}
+
+.notify-col2-row2 font {
+    font-size: 14px;
+}
+
+.notify-col2-row3 {
+    float: left;
+    text-align: left;
+    width: 100%;
+    height: 20%;
+}
+
+.notify-col2-row3 font {
+    font-size: 12px;
+
+}
+
+.notify-border {
+    margin-left: 20px;
+    margin-top: 20px;
+    border-bottom: 2px solid #DCDCDC;
+}
+
+.notify-button {
+    height: 60%;
+    width: 35%;
+}
+
+.notify-button-row1 {
+    width: 100%;
+    height: 65%;
+}
+
+.notify-button-row2 {
+    width: 100%;
+    height: 35%;
+    font-size: 15px;
+    color: #898989;
+}
+
+/*--------------------------------先看人－Me Notify 页面－End--------------------------------------*/

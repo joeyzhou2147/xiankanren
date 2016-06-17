@@ -1,0 +1,463 @@
+/*!
+ * Xiankanren
+ * Copyright 2011-2015 Twitter, Inc.
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+.bc-flex {
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; /* Safari */
+
+    justify-content: center;
+    -webkit-justify-content: center; /* Safari 6.1+ */
+
+    align-items: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center; /* Safari 7.0+ */
+}
+
+.bc-row-start {
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start; /* Safari 6.1+ */
+}
+
+.bc-column-start {
+    align-items: flex-start;
+    -webkit-align-items: flex-start; /* Safari 7.0+ */
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html {
+    position: relative;
+    height: 500px;
+    /*设置height 改变html5页面的高度*/
+    background-color: #EFEFEF;
+}
+
+body {
+    /* Margin bottom by footer height */
+    /*margin-bottom: 47px;*/
+    background-color: transparent;
+}
+
+.font-xihei {
+    font-family: STXihei;
+}
+
+/*business card container start
+-------------------------------------------------- */
+.bc-container {
+    width: 100%;
+    height: 56.7rem;
+}
+
+.bc-background {
+    background-color: #EFEFEF;
+    z-index: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.bc-top-half {
+    width: 50%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.bc-top-title {
+    width: 80%;
+    height: 100%;
+}
+
+.bc-top-title-checked {
+    height: 3.9rem;
+    font-size: 1.7rem;
+    color: #d92d53;
+    border-bottom: 2px solid #D72D57;
+}
+
+.bc-top-title-unchecked {
+    height: 100%;
+    font-size: 1.7rem;
+    color: #9fa0a0;
+}
+
+.bc-top-filter {
+    width: 25%;
+    height: 100%;
+    color: #DA2D54;
+}
+
+.bc-top-filter-image {
+    width: auto;
+    height: 1.5rem;
+    padding-top: 1px;
+}
+
+.bc-top-filter-title {
+    font-size: 1.5rem;
+}
+
+.bc-row-one {
+    display: flex;
+    width: 100%;
+    height: 35rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.bc-row-one-div1-card {
+    width: 28rem;
+    height: 32rem; /*card height is 320px*/
+    border-radius: 5px;
+    border: 1px solid black;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 2rem 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.image-cropper {
+    width: 8rem;
+    height: 8rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px lightgray solid;
+}
+
+.profile-image {
+    width: auto;
+    max-height: 14rem;
+    /*change image size here*/
+}
+
+.bc-row-one-div2 {
+    width: 2.8rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bc-row-one-div3 {
+    width: 2.8rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*business card container end*/
+
+/*footer start
+-------------------------------------------------- */
+
+.bc-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: #fff;
+    z-index: 1000;
+    height: 3.9rem;
+    border-bottom: 1px solid #F4CBD7;
+}
+
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    /* Set the fixed height of the footer here */
+    height: 4.4rem;
+    background-color: #ffffff;
+}
+
+.footer > .container {
+    padding-right: 0rem;
+    padding-left: 0rem;
+}
+
+.icon-footer {
+    letter-spacing: 0px;
+    text-align: center;
+    border-top: 1px #F4CBD7 solid;
+    font-weight: normal;
+}
+
+.icon-footer > .icon-footer-div {
+    cursor: pointer;
+    width: 8rem;
+}
+
+.icon-footer-div > .icon-footer-row1 {
+    align-items: flex-end;
+    height: 2.7rem;
+}
+
+.icon-footer-div > .icon-footer-row2 {
+    height: 1.6rem;
+    align-items: flex-end;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-footer-image {
+    height: 2rem;
+    width: auto;
+}
+
+/*footer end*/
+
+/*--------------------------先看人－联系按钮组件 页面－Start-----------------------------*/
+
+.namecard-row1-col1 img {
+    display: block;
+    margin: 0 auto;
+}
+
+.namecard-row1-col2-row1 font {
+    width: 30%;
+    height: 3rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+.namecard-row1-col2-row2 font {
+    font-size: 1.3rem;
+}
+
+.namecard-row1-col2-row3 font {
+    font-size: 1.8rem;
+
+}
+
+.bc-contact-pay-background {
+    background-color: #EFEFEF;
+    z-index: -1;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 2rem;
+    padding-bottom: 5px;
+}
+
+/*.home-row1 {*/
+/*width: 100%;*/
+/*margin-top: 55px;*/
+/*background-color: transparent;*/
+/*}*/
+
+/*.bc-contact-pay-row2-content {*/
+/*width: 92%;*/
+/*margin: 55px 29px 55px 29px;*/
+/*}*/
+
+.home-row1 {
+    width: 100%;
+    margin-top: 1.5rem;
+    background-color: transparent;
+    /*height: 31.6rem;*/
+}
+
+.bc-contact-pay-row2-content {
+    width: 27rem;
+    margin: 1.4rem 0rem 1.4rem 0rem;
+}
+
+/* ----------- iPhone 5 and 5S 开始----------- */
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+/* Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* ----------- iPhone 5 and 5S 结束----------- */
+
+/* ----------- iPhone 6 开始----------- */
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+/* Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* ----------- iPhone 6 结束----------- */
+
+/* ----------- iPhone 6+ 开始----------- */
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+
+    .home-row1 {
+        width: 100%;
+        margin-top: 5.5rem;
+        background-color: transparent;
+        height: 33rem;
+    }
+
+    .bc-contact-pay-row2-content {
+        width: 31.7rem;
+        margin: 4.5rem 0px 5.5rem 0px;
+        height: 6.4rem;
+    }
+}
+
+/* Portrait */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+}
+
+/* Landscape */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+}
+
+/* ----------- iPhone 6+ 结束----------- */
+
+.bc-contact-pay-row1-col1 {
+    height: 100%;
+    width: 10%;
+}
+
+.bc-contact-pay-row1-col2 {
+    height: 100%;
+    width: 80%;
+    padding-left: 1rem;
+}
+
+.bc-contact-pay-row1-col3 {
+    height: 100%;
+    width: 10%;
+}
+
+.home-row2 {
+    height: auto;
+    background-color: #EFEFEF;
+}
+
+.bc-contact-pay-row2-col1 {
+    height: 100%;
+}
+
+.bc-contact-pay-row2-col2 {
+    height: 100%;
+    margin-left: 1rem;
+}
+
+.bc-contact-pay-row2-col3 {
+    height: 100%;
+    margin-left: 1rem;
+}
+
+.bubble {
+    border: 0px solid #FFFFFF;
+    border-radius: 1rem;
+    background-color: white;
+    width: 100%;
+}
+
+.talkbubble {
+    background: white;
+    position: relative;
+    -moz-border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    border-radius: 1rem;
+}
+
+.talkbubble:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 2.6rem;
+    width: 0;
+    height: 0;
+    border-left: 13rem solid transparent;
+    border-top: 26rem solid white;
+    border-right: 13rem solid transparent;
+}
+
+.bc-contact-pay-row2-tit {
+    font-size: 1.7rem;
+    width: 4rem;
+    height: 2.5rem;
+    color: #9C9C9C;
+}
+
+.bubble-insert {
+    width: 8.25rem;
+    height: 100%;
+}
+
+.bubble-insert-row1 {
+    border-bottom: 1px solid #EFEFEF;
+    height: 3.2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 0.7rem;
+}
+
+.bubble-insert-row2 {
+    height: 2.5rem;
+    color: #9C9C9C;
+}
+
+.bubble-insert-pic {
+    width: auto;
+    height: 1.7rem;
+    margin-top: -3px;
+    color: #D83052;
+}
+
+.pay-row1 {
+    margin-top: 12rem;
+    height: 10rem;
+    width: 100%;
+}
+
+.pay-font-size {
+    font-size: 1.8rem;
+}
+
+.pay-row2 {
+    margin-top: 3rem;
+}
+
+.pay-row2-col1 {
+    width: 40%;
+}
+
+.pay-row2-col2 {
+    width: 40%;
+}
+
+/*--------------------------------先看人－联系按钮组件 页面－End--------------------------------------*/

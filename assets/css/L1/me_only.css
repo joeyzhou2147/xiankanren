@@ -1,0 +1,677 @@
+/*!
+ * Xiankanren
+ * Copyright 2011-2015 Twitter, Inc.
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+/* ----------- iPhone 5 and 5S 开始----------- */
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* ----------- iPhone 5 and 5S 结束----------- */
+
+/* ----------- iPhone 6 开始----------- */
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+
+/* ----------- iPhone 6 结束----------- */
+
+/* ----------- iPhone 6+ 开始----------- */
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+
+
+}
+
+/* ----------- iPhone 6+ 结束----------- */
+
+/* ---------------- Jimmy Edit ---------------------------*/
+.bc-left-center {
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; /* Safari */
+
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start; /* Safari 6.1+ */
+
+    align-items: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center; /* Safari 7.0+ */
+}
+
+.inner-card-row2-col1 {
+    width: 4.6rem;
+    margin-right: 2rem;
+}
+
+.image-card-profile {
+    height: 4.6rem;
+    width: auto;
+}
+
+/*header start*/
+
+.bc-top-bar {
+    width: 90%;
+    height: 50px;
+}
+
+.half-width {
+    width: 50%;
+}
+
+/*header end*/
+
+.font-xihei {
+    font-family: STXihei;
+}
+
+.image-cropper {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px lightgray solid;
+}
+
+.profile-image {
+    width: auto;
+    max-height: 170px;
+    /*change image size here*/
+}
+
+/*--------------------------先看人－Me 页面－Start-----------------------------*/
+.bc-me-3div-container {
+    height: 100%;
+}
+
+.me-3div-background {
+    background-color: #EFEFEF;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    padding-top: 3.9rem;
+    padding-bottom: 5px;
+}
+
+.content-part {
+    width: 100%;
+    height: 90%;
+}
+
+.option-part {
+    width: 100%;
+    height: 10%;
+}
+
+.me-3div-row1 {
+    width: 30rem;
+    height: 34rem;
+    margin: auto auto;
+}
+
+.me-3div-row2 {
+    width: 100%;
+    height: 14.6rem;
+
+}
+
+.ch-left-border {
+    padding-right: 5px;
+    border-left: 1px solid #f5cbd5;
+}
+
+.margin-10px {
+    padding-left: 10px;
+}
+
+.margin-5px {
+    padding-left: 5px;
+}
+
+.notify-tit {
+    font-size: 14px;
+    width: 40px;
+    height: 25px;
+    padding-top: 4px;
+    margin-right: 5px;
+}
+
+.notify-row2 {
+    display: flex;
+}
+
+.notify-row3 {
+    display: flex;
+}
+
+.notify-col2 {
+    height: 100%;
+    width: 75%;
+    padding-right: 10px;
+}
+
+.notify-col2-row1 {
+    float: margin-top;
+    width: 100%;
+    height: 2rem;
+    align-items: flex-end;
+    display: flex;
+}
+
+.notify-col2-row1 font {
+    width: 20%;
+    height: 2rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+.notify-col2-row1-name {
+    font-size: 20px;
+}
+
+.notify-col2-row2 {
+    float: left;
+    width: 100%;
+    height: 40%;
+}
+
+.notify-col2-row2 font {
+    font-size: 14px;
+}
+
+.notify-col2-row3 {
+    float: left;
+    width: 100%;
+    height: 20%;
+}
+
+.notify-col2-row3 font {
+    font-size: 12px;
+
+}
+
+.notify-button {
+    height: 6.67rem;
+    width: 11rem;
+}
+
+.notify-button-row1 {
+    width: 100%;
+    height: 50%;
+}
+
+.notify-button-row2 {
+    width: 100%;
+    height: 40%;
+}
+
+.iframePage {
+    width: 100%;
+    height: 100%;
+    margin: auto auto;
+}
+
+.option-1 {
+    width: 50%;
+    height: 100%;
+}
+
+.option-2 {
+    width: 50%;
+    height: 100%;
+}
+
+.option-font-style {
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+.greybubble {
+    background: #e2e2e2;
+    position: relative;
+    -moz-border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    border-radius: 1rem;
+}
+
+.whitebubble {
+    background: white;
+    position: relative;
+    -moz-border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    border-radius: 1rem;
+}
+
+.whitebubble-bottom-left {
+    background: white;
+    position: relative;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 0;
+
+}
+
+.whitebubble-top-left-right {
+    background: white;
+    position: relative;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.greybubble-top-right-bottom-left-right {
+    background-color: #e2e2e2;
+    position: relative;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 0;
+}
+
+.greybubble-top-right-bottom-left-right2 {
+    background-color: #FFFFFF;
+    position: relative;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 0;
+}
+
+.whitebubble-top-right-bottom-left-right {
+    background-color: #FFFFFF;
+    position: relative;
+    border-top-left-radius: 0;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.whitebubble-top-right-bottom-left-right2 {
+    background-color: #e2e2e2;
+    position: relative;
+    border-top-left-radius: 0;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.whitebackground-right-option {
+    background-color: #FFFFFF;
+    position: relative;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 0;
+}
+
+.option-insert {
+    height: 100%;
+    width: 100%;
+}
+
+.tag-cover-div {
+    position: absolute;
+    top: 0;
+    z-index: 8;
+    width: 100%;
+    visibility: hidden;
+}
+
+.card-cover-div {
+    z-index: 7;
+}
+
+.notify-cover-div {
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    width: 100%;
+    background-color: #e2e2e2;
+    z-index: 0;
+    border-radius: 1rem;
+}
+
+/*--------------------------------先看人－Me 页面－End--------------------------------------*/
+
+/*--------------------------------先看人－Me Tag 页面－Start--------------------------------------*/
+.inner-tag-HTML {
+    /*这里指定网页中部宽度*/
+    height: 125px;
+    width: 328px;
+    background-color: transparent;
+    clear: both;
+    overflow: auto;
+    overflow-x: hidden
+}
+
+.greybubble {
+    background: #e2e2e2;
+    position: relative;
+    -moz-border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    border-radius: 1rem;
+}
+
+.darkgreybubble {
+    background: grey;
+    position: relative;
+    -moz-border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    border-radius: 1rem;
+}
+
+.tag-inner-content {
+    height: 98%;
+    width: 100%;
+
+}
+
+.tag-inner-co {
+    height: 75%;
+    width: 90%;
+}
+
+.tag-inner-option {
+    height: 100%;
+    width: 90%;
+}
+
+.tag-inner-cancel {
+    height: 100%;
+    width: 10%;
+}
+
+.tag-inner-split {
+    height: 100%;
+    width: 50%;
+}
+
+.tag-inner-split-vertical {
+    width: 100%;
+    height: 33.33%;
+}
+
+.tag-inner-split-smoption {
+    height: 15px;
+    width: 51px;
+    border: 1px solid #595858;
+}
+
+iframe {
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: initial;
+    border-image-source: none;
+
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 2px;
+    border-left-width: 0px;
+}
+
+.option-font {
+    font-size: 11px;
+    color: #595858;
+}
+
+/*--------------------------------先看人－Me Tag 页面－End--------------------------------------*/
+
+/*--------------------------------先看人－Me Card 页面－Start--------------------------------------*/
+
+.inner-card-HTML {
+    /*这里指定网页中部宽度*/
+    height: 340px;
+    background-color: transparent;
+    clear: both;
+    overflow: auto;
+    overflow-x: hidden
+}
+
+.inner-card-row1 {
+    width: 100%;
+    height: 4%;
+    padding-top: 20px;
+
+}
+
+.inner-card-row1-content {
+    float: right;
+    padding-right: 20px;
+}
+
+.inner-card-row1-pic {
+
+}
+
+.inner-card-row1-word {
+    margin-left: 10px;
+}
+
+.inner-card-row2 {
+    width: 100%;
+    height: 4.6rem;
+    margin: auto 0rem auto 2.3rem;
+}
+
+.inner-card-row2-col2-row1-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.inner-card-row2-col2-row1-role {
+    font-size: 14px;
+}
+
+.inner-card-row2-col2 {
+    margin-left: 20px;
+}
+
+.inner-card-row3 {
+    width: 100%;
+    height: 8%;
+}
+
+.inner-card-row3-content {
+    width: 26rem;
+    height: 100%;
+    margin: auto 0rem auto 2.3rem;
+    font-size: 12px;
+}
+
+.inner-card-row4 {
+    width: 100%;
+    height: 10%;
+}
+
+.inner-card-row4-content {
+    width: 30rem;
+    height: 80%;
+    margin: auto auto;
+    font-size: 12px;
+    padding-bottom: 1rem;
+}
+
+.inner-card-row4-content2 {
+    width: 90%;
+    height: 2.3rem;
+    border-bottom: 1px solid #EFEFEF;
+    border-top: 1px solid #EFEFEF;
+    margin: auto 2.3rem auto 2.3rem;
+    font-size: 12px;
+}
+
+.inner-card-row5 {
+    width: 100%;
+    height: 40%;
+}
+
+.inner-card-row5-video-image {
+    width: 25rem;
+    height: auto;
+}
+
+.inner-card-row3-content-dis {
+    margin-right: 4px;
+}
+
+/*--------------------------------先看人－Me Card 页面－End--------------------------------------*/
+
+/*--------------------------------先看人－Me Notify 页面－Start--------------------------------------*/
+
+.inner-notify-HTML {
+    width: 30rem; /*这里指定网页中部宽度*/
+    height: 44.9rem;
+    background-color: transparent;
+    clear: both;
+    overflow: auto;
+    overflow-x: hidden;
+    background-color: #FFFFFF;
+}
+
+.talkbubble {
+    background: white;
+    position: relative;
+    -moz-border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    border-radius: 1rem;
+}
+
+.ch-left-border {
+    padding-right: 5px;
+    border-left: 1px solid #f5cbd5;
+}
+
+.margin-10px {
+    padding-left: 10px;
+}
+
+.margin-5px {
+    padding-left: 5px;
+}
+
+.tag {
+    padding-top: 1.5rem;
+    width: 30rem;
+    padding-bottom: 1.5rem;
+}
+
+.notify-tit {
+    font-size: 14px;
+    width: 40px;
+    height: 25px;
+    padding-top: 4px;
+    margin-right: 5px;
+}
+
+.notify-row1 {
+    display: flex;
+    height: 8.5rem;
+    width: 28rem;
+    padding: 0.3rem 0rem 0.3rem 0rem;
+    margin-left: 2rem;
+}
+
+.notify-row2 {
+    display: flex;
+
+    height: 20%;
+}
+
+.notify-row3 {
+    display: flex;
+
+    height: 20%;
+}
+
+.notify-col1 {
+    display: flex;
+    height: 100%;
+    width: 25%;
+    padding-bottom: 2rem;
+}
+
+.notify-col2 {
+    height: 100%;
+    width: 100%;
+    padding-right: 5%;
+    margin-left: 1rem;
+}
+
+.notify-col2-row1-name {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.notify-col2-row2 {
+    float: left;
+    width: 100%;
+    text-align: left;
+    justify-content: flex-start;
+    overflow: auto;
+    text-overflow: ellipsis;
+    height: 40px;
+}
+
+.notify-col2-row2 font {
+    font-size: 14px;
+}
+
+.notify-col2-row3 {
+    float: left;
+    text-align: left;
+    width: 100%;
+    height: 20%;
+}
+
+.notify-col2-row3 font {
+    font-size: 12px;
+
+}
+
+.notify-border {
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.notify-button-row1 {
+    width: 100%;
+    height: 65%;
+}
+
+.notify-button-row2 {
+    width: 100%;
+    height: 35%;
+    font-size: 15px;
+    color: #898989;
+}
+
+.image-picture1 {
+    width: 5rem;
+    height: auto;
+}
+
+.scroll {
+    width: 30rem;
+    height: 30.6rem;
+    overflow-x: hidden;
+    overflow-y: inherit;
+    border-radius: 1rem;
+}
+
+/*--------------------------------先看人－Me Notify 页面－End--------------------------------------*/

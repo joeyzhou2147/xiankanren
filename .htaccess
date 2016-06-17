@@ -1,0 +1,22 @@
+RewriteEngine on
+
+# uncomment the following lines to force HTTPS
+#RewriteCond %{HTTP:X-Forwarded-Proto} !https 
+#RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+
+# removes trailing slashes
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)/$ /$1 [R=301]
+
+# remove index.php from URL
+RewriteCond $1 !^(index\.php|assets|robots\.txt|index.html|index.php)
+
+#强制当前URL为被禁止的，即，立即反馈一个HTTP响应代码403(被禁止的)。
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+#add .html
+RewriteRule ^(.*)$ index.php/$1
+RewriteRule ^(google5f255eb4f295f36c).html$ index.php/$1 [L]
+#RewriteRule ([0-9]{1,})\.html$ index.php/$1.html [L]
+#no .html
+#RewriteRule ^(.*)$ /index.php/$1 [L]

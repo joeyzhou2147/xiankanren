@@ -1,0 +1,177 @@
+/*!
+ * Xiankanren
+ * Copyright 2011-2015 Twitter, Inc.
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+html {
+    position: relative;
+    height: 500px;
+    /*设置height 改变html5页面的高度*/
+}
+
+body {
+    /* Margin bottom by footer height */
+    /*margin-bottom: 47px;*/
+}
+
+.common-flex {
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-justify-content: center; /* Safari 6.1+ */
+    -webkit-align-items: center; /* Safari 7.0+ */
+}
+/* ----------- filter start --------------*/
+
+.bc-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: #fff;
+    z-index: 1000;
+    height: 47px;
+    border-bottom: 1px solid #E28FA1;
+}
+.filter-top-bar {
+    width: 100%;
+    height: 46px;
+}
+
+.filter-top-half {
+    width: 50%;
+    height: 100%;
+}
+
+.filter-top-title {
+    width: 80%;
+    height: 100%;
+}
+
+.filter-top-title-checked {
+    height: 47px;
+    font-size: 19px;
+    color: #d92d53;
+    border-bottom: 2px solid #D72D57;
+}
+
+.filter-top-title-unchecked {
+    height: 100%;
+    font-size: 19px;
+    color: #9fa0a0;
+}
+
+.filter-top-filter {
+    width: 25%;
+    height: 100%;
+    color: #DA2D54;
+}
+.filter-top-filter-image{
+    width: auto;
+    height: 18px;
+    margin-top: -2px;
+}
+.filter-top-filter-title{
+    font-size: 15px;
+}
+.filter-flex2 {
+    width: 100%;
+    height: 50px;
+}
+
+.filter-container2 {
+    padding-top: 11px;
+    width: 100%;
+    height: 100%;
+    background-color: #EFEFEF;
+    margin-top: 47px;
+}
+
+.filter-container3 {
+    background-color: #ffffff;
+    margin: 0px 5px 11px 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.filter-empty-row {
+    height: 50px;
+}
+
+.font-style1 {
+    font-size: 20px;
+    padding-left: 18px;
+    color: #D92D53;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding-bottom: 3px;
+    width: 100%;
+}
+
+.filter-tag1 {
+    display: flex;
+    justify-content: center;
+}
+
+.font-style2 {
+    font-size: 16px;
+    color: #727171;
+}
+
+.filter-tag2 {
+    border: 1px solid #b4b4b5;
+    border-radius: 4px;
+    width: 75px;
+    height: 21px;
+    margin-right: 6px;
+    margin-left: 6px;
+    display: inline-block;
+    margin-top: 11px;
+    text-align: center;
+}
+
+/*------------ filter end----------*/
+
+/*---------- footer ------------*/
+
+.footer1 {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 2.45rem;
+    background: #fff;
+    z-index: 1000;
+}
+
+.filter-footer-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+}
+
+.filter-footer-row {
+    height: auto;
+}
+
+.icon-footer2 {
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.bc-laud-top-checked {
+    color: #D92D53;
+}
+
+.bc-laud-top-unchecked {
+    color: #ADADAD;
+}
+
+/*---------- footer end------------*/
