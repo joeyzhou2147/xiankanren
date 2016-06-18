@@ -3,9 +3,6 @@
     height: 7.9rem;
     margin: 0.6rem 0.6rem 0rem 0.6rem;
     background-color: #FFFFFF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .image-sea-photo {
@@ -185,26 +182,30 @@
     outline: 0;
     cursor: pointer;
     position: relative;
-    padding: 10px;
+    margin-right: 1rem;
+    margin-left: 0.8rem;
+    padding: 1rem;
 }
 
 .close-icon:after {
     content: "X";
-    width: 15px;
-    height: 15px;
+    font-size: 1.0rem;
+    width: 1.3rem;
+    height: 1.3rem;
     position: absolute;
-    background-color: #ffffff;
-    color: #FA9595;
+    background-color: #ABABAB;
+    color: #ffffff;
     z-index: 1;
-    right: 1px;
+    right: 0.1rem;
     top: 0;
     bottom: 0;
     margin: auto;
-    padding: 2px;
+    padding-top: 0.1rem;
+    /*padding-right: 0.1rem;*/
     border-radius: 50%;
     text-align: center;
-    font-weight: normal;
-    box-shadow: 0 0 2px #E50F0F;
+    font-weight: bolder;
+    /*box-shadow: 0 0 2px #EBEBEB;*/
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -312,7 +313,6 @@ examples
 }
 
 .search-col1 {
-    display: flex;
     height: 100%;
     width: 20%;
 }
@@ -331,11 +331,10 @@ examples
 }
 
 .search-col2-row1 {
-    float: margin-top;
     width: 100%;
     height: 40%;
-    display: flex;
-    align-items: center;
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
 }
 
 .search-col2-row1 font {
@@ -375,14 +374,10 @@ examples
     float: left;
     width: 100%;
     height: 30%;
-    display: flex;
-    align-items: center;
+    font-size: 12px;
+    color: #7a7979
 }
 
-.search-col2-row3 font {
-    font-size: 13px;
-
-}
 
 .search-background {
     background-color: #ebebeb;
@@ -390,6 +385,13 @@ examples
     width: 100%;
     height: 100%;
     padding-top: 1px;
+}
+
+.search-sys-info{
+    width: 100%;
+    height: 8rem;
+    font-size: 1.6rem;
+    display: none;
 }
 
 /*--------------------------------先看人－搜索页面－End--------------------------------------*/

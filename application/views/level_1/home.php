@@ -15,7 +15,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- Meta, title, CSS, favicons, etc. -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="description" content="Xiankanren - 简洁、直观、强悍、用户优先的投资服务平台，让创业投资更迅速、简单。">
     <meta name="keywords" content="先看人, 先看脸, 创业, 投资, framework, bootstrap, front-end, frontend, web development">
     <meta name="author" content="Yu Zhou">
@@ -304,7 +304,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div onclick="showContact('','tag-cover-div')">
                                 <img class="home-card-row3-content-more"
-                                     src="<?php echo base_url('assets/images/me_more.png') ?>"/>
+                                     src="<?php echo base_url('assets/images/me_more.png'); ?>"/>
                             </div>
                         </div>
                     </div>
@@ -339,7 +339,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="bubble-insert">
                         <div class="bubble-insert-row1 bc-flex">
                             <image class="bubble-insert-pic"
-                                   src="<?php echo base_url('assets/images/contact01.png') ?>"/>
+                                   src="<?php echo base_url('assets/images/contact01.png'); ?>"/>
                             <div class="bc-contact-pay-row2-tit" color="#898a8a">联系</div>
                         </div>
                         <div class="bubble-insert-row2 bc-flex">
@@ -352,7 +352,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="bubble-insert">
                         <div class="bubble-insert-row1 bc-flex">
                             <image class="bubble-insert-pic"
-                                   src="<?php echo base_url('assets/images/collect01.png') ?>"/>
+                                   src="<?php echo base_url('assets/images/collect01.png'); ?>"/>
                             <div class="bc-contact-pay-row2-tit" color="#ce1442">收藏</div>
                         </div>
                         <div class="bubble-insert-row2 bc-flex" color="#898a8a"> 10000+人</div>
@@ -364,7 +364,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="bubble-insert">
                         <div class="bubble-insert-row1 bc-flex">
                             <image class="bubble-insert-pic"
-                                   src="<?php echo base_url('assets/images/comment01.png') ?>"/>
+                                   src="<?php echo base_url('assets/images/comment01.png'); ?>"/>
                             <div class="bc-contact-pay-row2-tit" color="#898a8a">留言</div>
                         </div>
                         <div class="bubble-insert-row2 bc-flex">

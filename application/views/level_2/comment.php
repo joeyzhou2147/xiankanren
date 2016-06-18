@@ -15,7 +15,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- Meta, title, CSS, favicons, etc. -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="description" content="Xiankanren - 简洁、直观、强悍、用户优先的投资服务平台，让创业投资更迅速、简单。">
     <meta name="keywords" content="先看人, 先看脸, 创业, 投资, framework, bootstrap, front-end, frontend, web development">
     <meta name="author" content="Yu Zhou">
@@ -24,7 +24,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
     <link href="<?php echo base_url("assets/css/bootstrap.min.css"); ?>" rel="stylesheet">
-
     <link href="<?php echo base_url('assets/css/L2/comment.css'); ?>" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
@@ -48,21 +47,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             background-color: #eeeeee;
             width: 100%;
             display: inline-block;
-            height: 56.7rem;
+            height: auto;
+            position: absolute;
+            top:4.4rem;
+            bottom: 4.4rem;
+            overflow-y: scroll;
         } 
 
         .bc-top-bar {
             width: 100%;
-            height: 5rem;
+            height: 4.4rem;
         }
 
         .bc-top-half{
             color: #8e8f8f;
+            font-size: 2.0rem;
         }
 
         .bc-header {
-            height: 5rem;
-            border-bottom: 0.1rem solid #D92D53;
+            height: 4.4rem;
+            border-bottom: 0.1rem solid #F4CBD7;
         }
 
         .bc-flex {
@@ -80,18 +84,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             -webkit-align-items: center;
         }
 
-        .font-xihei {
-            font-family: STXihei;
-        }
-
         /*---------- footer ------------*/
 
         .footer {
+            width: 100%;
             position: fixed;
             bottom: 0;
-            width: 100%;
-            height: 5rem;
+            z-index: 1000;
             background-color: #ffffff;
+            height: 4.4rem;
+            border-top: 0.1rem solid #F4CBD7;
         }
 
         .container{
@@ -105,50 +107,79 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         .com-container{
             margin-bottom: 1rem;
-            height: 10.9rem;
             width: 96%;
         }
 
-        .search-top-box{
-            width: 86%;
-            height: 100%;
+        .comment-footer-box{
+            width: 80%;
+            height: 2.5rem;
+            border: 0.1rem solid #ce1442;
+            border-radius: 0.5rem;                /* 圆角边框 */
+            padding-left: 1.0rem;
+            margin-left: 0;
         }
 
         .bc-top-filter{
-            width: 14%;
+            width: 6%;
             height: 100%;
             font-size: 1.8rem;
             color: #8e8f8f;
         }
 
-        .search-top-box-input{
-            height: 2.5rem;
-            color:gray;
-            margin: 0;
-            padding: 1rem 0;
-            border: 0.1rem solid #ce1442;
-            border-radius: 0.5rem;                /* 圆角边框 */
-            width: 32rem;
-            font-size: 1.5rem;
-            padding-left: 1.5rem;
-            background-color: transparent;
-            display: flex;
-            justify-content: flex-start;
-            margin-left: 5px;
+        .bc-abolish{
+            font-size: 1.8rem;
+            color: #8e8f8f;
+            width: 12%;
+            height: 100%;
+            margin-left: 1rem;
         }
 
-        ::-webkit-input-placeholder { 
-            color: #ce1442; text-overflow: ellipsis; 
-        } 
-        :-moz-placeholder { 
-            color: #ce1442 !important; text-overflow: ellipsis; 
-        } 
-        ::-moz-placeholder { 
-            color: #ce1442 !important; text-overflow: ellipsis; 
-        } /* for the future */ 
-        :-ms-input-placeholder { 
-            color: #ce1442 !important; text-overflow: ellipsis; 
-        } 
+        .comment-footer-box-input{
+            height: 100%;
+            color:gray;
+            width: 36rem;
+            font-size: 1.5rem;
+            background-color: #ffffff;
+            border: none;
+        }
+
+        .comment-footer-box-input::-webkit-input-placeholder {
+            color: #ce1442; text-overflow: ellipsis;
+        }
+        .comment-footer-box-input:-moz-placeholder {
+            color: #ce1442 !important; text-overflow: ellipsis;
+        }
+        .comment-footer-box-input::-moz-placeholder {
+            color: #ce1442 !important; text-overflow: ellipsis;
+        } /* for the future */
+        .comment-footer-box-input:-ms-input-placeholder {
+            color: #ce1442 !important; text-overflow: ellipsis;
+        }
+
+        .comment-footer-box-input:not(:valid) ~ .close-icon {
+            display: none;
+        }
+
+        .image-com-comment{
+            width: 2.0rem;
+            height: auto;
+        }
+
+        .con-bg-background{
+            background-color: rgba(0,0,0,0.5);
+            width: 100%;
+            display: inline-block;
+            height: auto;
+            position: absolute;
+            top:4.4rem;
+            bottom: 4.4rem;
+            overflow-y: scroll;
+            z-index: 10001;
+            
+            visibility: hidden;
+        }
+
+        
 
         /* ----------- iPhone 5 and 5S 开始----------- */
         /* Portrait and Landscape */
@@ -168,6 +199,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="bc-flex" style="justify-content: flex-start;">
         <div class="bc-flex bc-top-bar">
             <div class="bc-flex font-xihei bc-top-filter">
+                <img class="image-com-comment" src="<?php echo base_url('assets/images/comment02.png'); ?>"/>
             </div>
             <div class="bc-top-title bc-flex">
                 <div class="bc-top-half bc-flex font-xihei">留言</div>
@@ -197,7 +229,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="com-col2-row3">1分钟前</div>
                 </div>
             </div>
-        </div>   
+        </div>
     </div>
 
     <div class="font-xihei com-container">
@@ -212,7 +244,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="com-col2-row3">1分钟前</div>
                 </div>
             </div>
-        </div>   
+        </div>
     </div>
 
     <div class="font-xihei com-container">
@@ -227,7 +259,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="com-col2-row3">1分钟前</div>
                 </div>
             </div>
-        </div>   
+        </div>
     </div>
 
     <div class="font-xihei com-container">
@@ -242,7 +274,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="com-col2-row3">1分钟前</div>
                 </div>
             </div>
-        </div>   
+        </div>
     </div>
 
     <div class="font-xihei com-container">
@@ -257,23 +289,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="com-col2-row3">1分钟前</div>
                 </div>
             </div>
-        </div>   
+        </div>
     </div>
+</div>
 
-
+<div class="con-bg-background" id="con-bg-background" onclick="returnback()">
 </div>
 
 
-<footer class="footer bc-flex">
+<footer class="footer id="footer" bc-flex">
     <div class="container bc-flex">
-        <div class="search-top-box bc-flex">   
-            <input class="search-top-box-input" type="text" placeholder="留下评论，带走好运..."/>        
-        </div>
-        <div class="bc-flex font-xihei bc-top-filter" onclick="toHref('<?php echo base_url("level_1/home"); ?>')">
+        <form class="comment-footer-box bc-flex">
+            <input class="comment-footer-box-input" id="footer-box-input" type="text" placeholder="留下评论，带走好运..." onfocus="backgroundch()" onblur="returnback()"/>        
+        </form>
+        <div class="bc-flex font-xihei bc-abolish" onclick="toHref('<?php echo base_url("level_1/home"); ?>')">
             <div class="bc-flex">取消</div>
         </div>
-    </div>
-
     </div>
 </footer>
 
@@ -286,6 +317,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         document.getElementById(ctTwo).style.visibility = "visible";
         document.getElementById(ctOne).style.visibility = "hidden";
     }
+
+    function backgroundch(){
+        document.getElementById("con-bg-background").style.visibility = "visible";
+    }
+
+    function returnback(){
+        document.getElementById("con-bg-background").style.visibility = "hidden";
+    }
+
 
 </script>
 
