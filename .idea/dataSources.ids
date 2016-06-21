@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - xkr@127.7.140.130" uuid="4206cc3c-7f24-432f-8a2d-6dc1ce9d0894">
+    <database-info product="MySQL" version="5.5.45" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
+    <schema name="" catalog="xkr"/>
+    <table name="comment" schema="" catalog="xkr" type="TABLE">
+      <column name="comment_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="user_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="writer_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="comment_type" sqlType="VARCHAR" precision="12" scale="0" nullable="false" jdbcType="12"/>
+      <column name="comment_text" sqlType="MEDIUMTEXT" precision="16777215" scale="0" nullable="false" jdbcType="-1"/>
+      <column name="comment_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="comment_id"/>
+    </table>
+    <table name="search" schema="" catalog="xkr" type="TABLE">
+      <column name="search_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="search_text" sqlType="TEXT" precision="65535" scale="0" nullable="false" jdbcType="-1"/>
+      <column name="used_times" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="search_id"/>
+    </table>
+    <table name="tag" schema="" catalog="xkr" type="TABLE">
+      <column name="tag_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="tag_type" sqlType="VARCHAR" precision="16" scale="0" nullable="false" jdbcType="12"/>
+      <column name="tag_name" sqlType="VARCHAR" precision="16" scale="0" nullable="false" jdbcType="12"/>
+      <column name="tag_used_times" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="tag_id"/>
+    </table>
+    <table name="user" schema="" catalog="xkr" type="TABLE">
+      <column name="user_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="user_name" sqlType="VARCHAR" precision="32" scale="0" nullable="false" jdbcType="12"/>
+      <column name="user_company" sqlType="VARCHAR" precision="32" scale="0" nullable="false" jdbcType="12"/>
+      <column name="user_detail" sqlType="VARCHAR" precision="64" scale="0" nullable="false" jdbcType="12"/>
+      <column name="user_role" sqlType="VARCHAR" precision="16" scale="0" nullable="false" jdbcType="12"/>
+      <column name="user_last_login" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <column name="user_register_time" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="JzAwMDAtMDAtMDAgMDA6MDA6MDAn"/>
+      <column name="tag_status" sqlType="VARCHAR" precision="16" scale="0" nullable="false" jdbcType="12"/>
+      <column name="tag_main_tag" sqlType="VARCHAR" precision="16" scale="0" nullable="false" jdbcType="12"/>
+      <column name="count_play" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="count_laud" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="count_comment" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="count_contact" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="password" sqlType="MEDIUMTEXT" precision="16777215" scale="0" nullable="false" jdbcType="-1"/>
+      <column name="user_image" sqlType="MEDIUMTEXT" precision="16777215" scale="0" nullable="false" jdbcType="-1"/>
+      <column name="user_email" sqlType="VARCHAR" precision="64" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="user_id"/>
+    </table>
+  </data-source>
+</component>

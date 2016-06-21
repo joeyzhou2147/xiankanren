@@ -93,10 +93,13 @@ body {
 
 .filter-container3 {
     background-color: #ffffff;
-    margin: 0px 5px 11px 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
+    margin: 0px 1.34% 4% 1.34%;
+    padding-bottom: 2.67%;
+    padding-top: 2.67%;
+    width: 97.07%;
+    display: block;
+    align-items: center;
+    justify-content: center;
 }
 
 .filter-empty-row {
@@ -126,12 +129,11 @@ body {
 .filter-tag2 {
     border: 1px solid #b4b4b5;
     border-radius: 4px;
-    width: 75px;
-    height: 21px;
-    margin-right: 6px;
-    margin-left: 6px;
+    width: 20.605%;
+    margin-right: 1.65%;
+    margin-left: 1.65%;
     display: inline-block;
-    margin-top: 11px;
+    margin-top: 3.022%;
     text-align: center;
 }
 
@@ -175,3 +177,50 @@ body {
 }
 
 /*---------- footer end------------*/
+
+/*---------- edit start -----------*/
+
+.con-bg-background {
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 295%;
+    display: flex;
+    position: absolute;
+    top: 4.4rem;
+    bottom: 4.4rem;
+    overflow-y: scroll;
+    z-index: 10001;
+    visibility: hidden;
+    padding-top: 91rem;
+    justify-content: center;
+}
+
+.edit-agreement {
+    display: flex;
+
+    width: 70%;
+    height: 75%;
+    background-color: #FFFFFF;
+}
+
+.edit-agreement-div {
+    background-color: #eeeeee;
+    margin: 0px 0.5rem 5rem 0.5rem;
+    padding-top: 10px;
+    padding-bottom: 0.5rem;
+    height: 5rem;
+}
+
+.edit-agreement-col1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #878787;
+}
+
+.edit-agreement-col2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d72d53;
+}

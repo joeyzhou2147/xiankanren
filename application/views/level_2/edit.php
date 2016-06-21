@@ -15,7 +15,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- Meta, title, CSS, favicons, etc. -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=0.85, minimum-scale=0.85, maximum-scale=1, user-scalable=no"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Xiankanren - 简洁、直观、强悍、用户优先的投资服务平台，让创业投资更迅速、简单。">
     <meta name="keywords" content="先看人, 先看脸, 创业, 投资, framework, bootstrap, front-end, frontend, web development">
     <meta name="author" content="Yu Zhou">
@@ -101,20 +101,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         .edit-container3 {
             background-color: #ffffff;
-            margin: 0px 5px 15px 5px;
-            padding-bottom: 10px;
-            padding-top: 10px;
-            height: 70px;
-            width: 364px;
+            margin: 0px 1.34% 4% 1.34%;
+            padding-bottom: 2.67%;
+            padding-top: 2.67%;
+            height: 7rem;
+            width: 97.07%;
         }
 
         .edit-container4 {
             background-color: #ffffff;
-            margin: 0px 5px 15px 5px;
-            padding-bottom: 10px;
-            padding-top: 10px;
-            height: 86px;
-            width: 364px;
+            margin: 0px 1.34% 4% 1.34%;
+            padding-bottom: 2.67%;
+            padding-top: 2.67%;
+            height: 8.6rem;
+            width: 97.07%;
         }
 
         .edit-empty-row {
@@ -154,16 +154,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         /*---------- footer end------------*/
         
         /*-------------- Jimmy Edit --------------*/
-        .filter-container3 {
-            background-color: #ffffff;
-            margin: 0px 5px 15px 5px;
-            padding-bottom: 10px;
-            padding-top: 10px;
-            width: 364px;
-            display: block;
-            align-items: center;
-            justify-content: center;
-        }
         .font-color1 {
             color: #888888;
         }
@@ -420,20 +410,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         .filter-tag3 {
             border: 1px solid #d82d53;
             border-radius: 4px;
-            width: 7.5rem;
-            height: 2.1rem;
-            margin-right: 6px;
-            margin-left: 6px;
+            width: 20.605%;
+            margin-right: 1.65%;
+            margin-left: 1.65%;
             display: inline-block;
             /*margin-top: 10px;*/
             text-align: center;
-            margin-top: 1.1rem;
+            margin-top: 3.022%;
             background-color: #d82d53 ;
-        }
-
-        .image-edit {
-            heigh: 2rem;
-            width: auto;
         }
 
         .display-flex {
@@ -881,9 +865,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
     </div>
 
+    <div class="edit-agreement-div bc-flex" onclick="backgroundch()">
+        <div class="edit-agreement-col1">
+            我已阅读并同意
+        </div>
+        <div class="edit-agreement-col2">
+            《先看人用户协议》
+        </div>
+    </div>
+
     <!-- edit-filter-end-->
 
 
+</div>
+
+<div class="con-bg-background bc-flex" id="con-bg-background" onclick="returnback()">
+    <div class="edit-agreement">
+
+    </div>
 </div>
 
 
@@ -918,6 +917,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <script src="<?php echo base_url('assets/js/bootstrap.min.js'); ?>"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="<?php echo base_url('assets/js/ie10-viewport-bug-workaround.js'); ?>"></script>
+
+<!--- Jimmy Edit ---->
+<script>
+
+    function backgroundch(){
+        document.getElementById("con-bg-background").style.visibility = "visible";
+    }
+
+    function returnback(){
+        document.getElementById("con-bg-background").style.visibility = "hidden";
+    }
+
+
+</script>
+
 </body>
 
 

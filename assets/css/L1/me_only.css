@@ -8,6 +8,146 @@
 /* Portrait and Landscape */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    .me-3div-background {
+        padding-top: 2.5rem;
+        background-color: #EFEFEF;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 5px;
+    }
+
+    .me-3div-row1 {
+        width: 28rem;
+        height: 32rem;
+        margin: auto auto;
+    }
+
+
+    .notify-button {
+        height: 7rem;
+        width: 11.5rem;
+    }
+
+    .me-3div-row2 {
+        width: 100%;
+        height: 12rem;
+    }
+
+    .option-part {
+        width: 88%;
+        height: 6.89%;
+        background-color: #e1e1e1;
+        visibility: visible;
+        position:fixed;
+        border-bottom-right-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
+
+    .inner-card-row5-video-image {
+        width: 23rem ;
+        height: auto ;
+    }
+
+    .content-part {
+        width: 100%;
+        height: 90%;
+    }
+
+    .inner-card-row4-content2 {
+        width: 93%;
+        height: 88%;
+        border-bottom: 1px solid #EFEFEF;
+        border-top: 1px solid #EFEFEF;
+        font-size: 1.1rem;
+
+    }
+
+
+    .me-moretag {
+        margin-right:0.5rem
+    }
+
+    .inner-card-row2-col2-row1 {
+    }
+
+    .namecard-row2-col2-row2 {
+        padding-top: 0.3rem;
+        font-size: 13px;
+    }
+
+    .inner-card-row2-col2-row1-name {
+        font-size: 23px;
+        margin-right: 1rem;
+        color: #3e3a39;
+        font-weight: bold;
+    }
+
+
+    .inner-card-row1 {
+        width: 100%;
+        height: 4%;
+        padding-top: 3%;
+
+    }
+
+    .inner-card-row1-content {
+        float: right;
+        padding-right: 20px;
+        margin-bottom: 0.2rem;
+    }
+
+    .scroll {
+        width: 28rem;
+        height: 28.8rem;
+        overflow-x: hidden;
+        overflow-y: inherit;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+
+    .inner-notify-HTML {
+        width: 28rem; /*这里指定网页中部宽度*/
+        height: 26.8rem;
+        background-color: transparent;
+        clear: both;
+        overflow: auto;
+        overflow-x: hidden;
+        background-color: #FFFFFF;
+    }
+
+      {
+        font-size: 1.2rem;
+    }
+
+    .inner-card-row3-content-dis {
+        margin-right: 4px;
+        font-size: 11px;
+        color: #727171;
+        padding-top: 0.5rem;
+    }
+
+    .inner-card-row1-word {
+        margin-left: 0.6rem;
+        font-size: 14px;
+    }
+
+    .image-me-edit {
+        height: 1.3rem;
+        width: auto;
+    }
+
+    .inner-card-row2 {
+        width: 100%;
+    }
+
+    .inner-card-row4 {
+        width: 100%;
+        height: 12%;
+    }
+
+
 }
 
 /* ----------- iPhone 5 and 5S 结束----------- */
@@ -16,6 +156,147 @@
 /* Portrait and Landscape */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    .me-3div-background {
+        background-color: #EFEFEF;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        padding-top: 9%;
+        padding-bottom: 5px;
+    }
+
+    .me-3div-row1 {
+        width: 33rem;
+        height: 38rem;
+        margin: auto auto;
+    }
+
+    .notify-button {
+        height: 8rem;
+        width: 13rem;
+    }
+
+    .me-3div-row2 {
+        width: 100%;
+        height: 15rem;
+
+    }
+
+    .option-part {
+        width: 88%;
+        height: 6.89%;
+        background-color: #e1e1e1;
+        visibility: visible;
+        position:fixed;
+        border-bottom-right-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
+
+    .inner-card-row5-video-image {
+        width: 28rem;
+        height: auto;
+    }
+
+    .content-part {
+        width: 100%;
+        height: 90%;
+    }
+
+    .inner-card-row4-content2 {
+        width: 93%;
+        height: 88%;
+        border-bottom: 1px solid #EFEFEF;
+        border-top: 1px solid #EFEFEF;
+        font-size: 1.3rem;
+        color: #3e3a39;
+    }
+
+
+    .me-moretag {
+        margin-left:5%
+    }
+
+    .namecard-row2-col2-row2 {
+        padding-top: 0.5rem;
+        font-size: 15px;
+        color: #727171;
+    }
+
+    .inner-card-row2-col2-row1-name {
+        font-size: 24px;
+        font-weight: bold;
+        margin-right: 1rem;
+    }
+
+    .inner-card-row1 {
+        width: 100%;
+        height: 4%;
+        padding-top: 5%;
+
+    }
+
+
+    .inner-card-row1-content {
+        float: right;
+        padding-right: 20px;
+    }
+
+    .scroll {
+        width: 33rem;
+        height: 34.2rem;
+        overflow-x: hidden;
+        overflow-y: inherit;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+
+    .inner-notify-HTML {
+        width: 33rem; /*这里指定网页中部宽度*/
+        height: 32.2rem;
+        background-color: transparent;
+        clear: both;
+        overflow: auto;
+        overflow-x: hidden;
+        background-color: #FFFFFF;
+    }
+
+    .notify-tit {
+        font-size: 1.4rem;
+    }
+
+    .inner-card-row3-content-dis {
+        margin-right: 4px;
+        font-size: 13px;
+        color: #727171;
+    }
+
+
+    .inner-card-row2 {
+        width: 100%;
+        height: 15%;
+        padding-bottom: 3%;
+    }
+
+    .inner-card-row1-word {
+        margin-left: 0.6rem;
+        font-size: 16px;
+    }
+
+    .image-me-edit {
+        height: 1.5rem;
+        width: auto;
+    }
+
+    .inner-card-row2 {
+
+    }
+
+
+    .inner-card-row4 {
+        width: 100%;
+        height: 14%;
+    }
 
 }
 
@@ -26,6 +307,76 @@
 /* Portrait and Landscape */
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+
+    .me-3div-background {
+        background-color: #EFEFEF;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        padding-top: 9%;
+        padding-bottom: 5px;
+    }
+
+    .me-3div-row2 {
+        width: 100%;
+        height: 25rem;
+
+    }
+
+    .me-3div-row1 {
+        width: 37rem;
+        height: 42rem;
+        margin: auto auto;
+    }
+
+    .option-part {
+        width: 37rem;
+        height: 6.89%;
+        background-color: #e1e1e1;
+        visibility: visible;
+        position:fixed;
+        border-bottom-right-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
+
+    .inner-card-row5-video-image {
+        width: 32rem;
+        height: auto;
+    }
+
+    .inner-card-row4-content2 {
+        width: 95%;
+        height: 88%;
+        border-bottom: 1px solid #EFEFEF;
+        border-top: 1px solid #EFEFEF;
+        font-size: 1.3rem;
+        color: #3e3a39;
+    }
+
+    .me-moretag {
+        margin-left:11%
+    }
+
+    .me-3div-row2 {
+        width: 100%;
+        height: 18rem;
+
+    }
+
+    .inner-notify-HTML {
+        width: 37rem; /*这里指定网页中部宽度*/
+        height: 36rem;
+        background-color: transparent;
+        clear: both;
+        overflow: auto;
+        overflow-x: hidden;
+        background-color: #FFFFFF;
+    }
+
+    .notify-button {
+        height: 9rem;
+        width: 14rem;
+    }
 
 
 }
@@ -53,10 +404,11 @@
 .inner-card-row2-col1 {
     width: 4.6rem;
     margin-right: 2rem;
+    margin-left: 2.5rem;
 }
 
 .image-card-profile {
-    height: 4.6rem;
+    height: 5.5rem;
     width: auto;
 }
 
@@ -97,39 +449,7 @@
     height: 100%;
 }
 
-.me-3div-background {
-    background-color: #EFEFEF;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-    padding-top: 3.9rem;
-    padding-bottom: 5px;
-}
-
-.content-part {
-    width: 100%;
-    height: 90%;
-}
-
-.option-part {
-    width: 100%;
-    height: 10%;
-}
-
-.me-3div-row1 {
-    width: 30rem;
-    height: 34rem;
-    margin: auto auto;
-}
-
-.me-3div-row2 {
-    width: 100%;
-    height: 14.6rem;
-
-}
-
 .ch-left-border {
-    padding-right: 5px;
     border-left: 1px solid #f5cbd5;
 }
 
@@ -139,14 +459,6 @@
 
 .margin-5px {
     padding-left: 5px;
-}
-
-.notify-tit {
-    font-size: 14px;
-    width: 40px;
-    height: 25px;
-    padding-top: 4px;
-    margin-right: 5px;
 }
 
 .notify-row2 {
@@ -203,11 +515,6 @@
 
 }
 
-.notify-button {
-    height: 6.67rem;
-    width: 11rem;
-}
-
 .notify-button-row1 {
     width: 100%;
     height: 50%;
@@ -236,7 +543,6 @@
 
 .option-font-style {
     padding-left: 5px;
-    padding-top: 5px;
     font-size: 12px;
 }
 
@@ -261,8 +567,7 @@
     position: relative;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    border-bottom-left-radius: 0;
+
 
 }
 
@@ -342,9 +647,10 @@
     top: 0;
     visibility: hidden;
     width: 100%;
-    background-color: #e2e2e2;
+    background-color: #FFFFFF;
     z-index: 0;
-    border-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
 /*--------------------------------先看人－Me 页面－End--------------------------------------*/
@@ -383,8 +689,9 @@
 }
 
 .tag-inner-co {
-    height: 75%;
+    height: 87%;
     width: 90%;
+    margin-top: 4%;
 }
 
 .tag-inner-option {
@@ -437,46 +744,20 @@ iframe {
 
 .inner-card-HTML {
     /*这里指定网页中部宽度*/
-    height: 340px;
+    height: 100%;
     background-color: transparent;
     clear: both;
     overflow: auto;
     overflow-x: hidden
 }
 
-.inner-card-row1 {
-    width: 100%;
-    height: 4%;
-    padding-top: 20px;
-
-}
-
-.inner-card-row1-content {
-    float: right;
-    padding-right: 20px;
-}
-
 .inner-card-row1-pic {
-
-}
-
-.inner-card-row1-word {
-    margin-left: 10px;
-}
-
-.inner-card-row2 {
-    width: 100%;
-    height: 4.6rem;
-    margin: auto 0rem auto 2.3rem;
-}
-
-.inner-card-row2-col2-row1-name {
-    font-size: 24px;
-    font-weight: bold;
+    padding-bottom: 0.4rem;
 }
 
 .inner-card-row2-col2-row1-role {
     font-size: 14px;
+    color: #727171;
 }
 
 .inner-card-row2-col2 {
@@ -486,64 +767,32 @@ iframe {
 .inner-card-row3 {
     width: 100%;
     height: 8%;
+    padding-bottom: 0.3rem;
 }
 
 .inner-card-row3-content {
-    width: 26rem;
-    height: 100%;
-    margin: auto 0rem auto 2.3rem;
-    font-size: 12px;
-}
-
-.inner-card-row4 {
     width: 100%;
-    height: 10%;
+    height: 100%;
+    margin-left: 2.5rem;
+    font-size: 12px;
 }
 
 .inner-card-row4-content {
-    width: 30rem;
+    width: 90%;
     height: 80%;
     margin: auto auto;
-    font-size: 12px;
-    padding-bottom: 1rem;
-}
-
-.inner-card-row4-content2 {
-    width: 90%;
-    height: 2.3rem;
-    border-bottom: 1px solid #EFEFEF;
-    border-top: 1px solid #EFEFEF;
-    margin: auto 2.3rem auto 2.3rem;
     font-size: 12px;
 }
 
 .inner-card-row5 {
     width: 100%;
-    height: 40%;
+    height: 45%;
 }
 
-.inner-card-row5-video-image {
-    width: 25rem;
-    height: auto;
-}
-
-.inner-card-row3-content-dis {
-    margin-right: 4px;
-}
 
 /*--------------------------------先看人－Me Card 页面－End--------------------------------------*/
 
 /*--------------------------------先看人－Me Notify 页面－Start--------------------------------------*/
-
-.inner-notify-HTML {
-    width: 30rem; /*这里指定网页中部宽度*/
-    height: 44.9rem;
-    background-color: transparent;
-    clear: both;
-    overflow: auto;
-    overflow-x: hidden;
-    background-color: #FFFFFF;
-}
 
 .talkbubble {
     background: white;
@@ -553,38 +802,25 @@ iframe {
     border-radius: 1rem;
 }
 
-.ch-left-border {
-    padding-right: 5px;
-    border-left: 1px solid #f5cbd5;
-}
-
 .margin-10px {
-    padding-left: 10px;
+    padding-left: 13.16%;
 }
 
 .margin-5px {
-    padding-left: 5px;
+    padding-left: 6.5%;
 }
 
 .tag {
-    padding-top: 1.5rem;
-    width: 30rem;
-    padding-bottom: 1.5rem;
-}
-
-.notify-tit {
-    font-size: 14px;
-    width: 40px;
-    height: 25px;
-    padding-top: 4px;
-    margin-right: 5px;
+    padding-top: 4.55%;
+    width: 100%;
+    padding-bottom: 4.55%;
 }
 
 .notify-row1 {
     display: flex;
-    height: 8.5rem;
-    width: 28rem;
-    padding: 0.3rem 0rem 0.3rem 0rem;
+    height: 10rem;
+    width: 96%;
+    padding: 1rem 0rem 0.3rem 0rem;
     margin-left: 2rem;
 }
 
@@ -616,7 +852,7 @@ iframe {
 
 .notify-col2-row1-name {
     font-size: 1.6rem;
-    font-weight: bold;
+    color: black;
 }
 
 .notify-col2-row2 {
@@ -666,12 +902,28 @@ iframe {
     height: auto;
 }
 
-.scroll {
-    width: 30rem;
-    height: 30.6rem;
-    overflow-x: hidden;
-    overflow-y: inherit;
-    border-radius: 1rem;
+.me-small-tag {
+    padding-right: 1.55%;
+    width: 25%;
 }
+
+.option-part2 {
+    width: 100%;
+    height: 12%;
+    background-color: #e1e1e1;
+    z-index: 3;
+    visibility: hidden;
+    position: relative;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+
+}
+
+.image-me-more-tag {
+    height: 1.3rem;
+    width: auto;
+}
+
+
 
 /*--------------------------------先看人－Me Notify 页面－End--------------------------------------*/

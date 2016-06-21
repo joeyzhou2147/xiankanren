@@ -26,6 +26,8 @@ class Search extends CI_Controller
      */
     function __construct()
     {
+        //$this->load->db;
+        $this->load->database();
         parent::__construct();
     }
 
@@ -64,6 +66,6 @@ class Search extends CI_Controller
         );
         //        echo phpinfo(); die();
         //$searchResult=array("Saab","Volvo","BMW","Toyota");
-        echo $searchResult === "" ? "no more result" : json_encode($searchResult);;
+        echo $searchResult === "" ? "no more result" : json_encode($searchResult);
     }
 }

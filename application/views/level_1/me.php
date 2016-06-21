@@ -8,7 +8,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 
 <head>
     <meta charset="utf-8">
@@ -16,6 +16,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="先看人, 先看脸, 创业, 投资, framework, bootstrap, front-end, frontend, web development">
     <meta name="author" content="Yu Zhou">
+    <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>先看人 | 投资服务</title>
 
     <link href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>" rel="stylesheet">
@@ -36,6 +37,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <![endif]-->
 
     <style>
+
 
     </style>
 
@@ -138,15 +140,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                     </div>
                 </div>
-                <div id="card-cover-div" class="card-cover-div" style="height:340px;">
+                <div id="card-cover-div" class="card-cover-div" style="height:100%;">
 
                     <div class="inner-card-HTML ">
                         <div class="inner-card-row1">
                             <div class="inner-card-row1-content bc-flex"
                                  onclick="toHref('<?php echo base_url('level_2/edit') ?>')">
-                                <div class="inner-card-row1-pic"><img
-                                        src="<?php echo base_url('assets/images/edit.png') ?>" height="20px"
-                                        width="auto"/>
+                                <div class="inner-card-row1-pic"><img class="image-me-edit"
+                                        src="<?php echo base_url('assets/images/edit.png') ?>" >
                                 </div>
                                 <div class="inner-card-row1-word"><font color="#ce1442" font-size="10px">编辑</font></div>
                             </div>
@@ -174,18 +175,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                         <div class="inner-card-row3">
                             <div class="inner-card-row3-content bc-left-center">
-                                <div class="inner-card-row3-content-dis" style="float:left;"><font color="grey">医疗健康
-                                        /</font></div>
-                                <div class="inner-card-row3-content-dis" style="float:left;"><font color="grey">Pre-A 轮
-                                        /</font></div>
-                                <div class="inner-card-row3-content-dis" style="float:left;"><font color="grey">80后
-                                        /</font></div>
-                                <div class="inner-card-row3-content-dis" style="float:left;"><font color="grey">游戏
-                                        /</font></div>
-                                <div class="inner-card-row3-content-dis" style="float:left;"><font
-                                        color="grey">O2O</font></div>
-                                <div style="float:left;margin-left:2.9rem;"
-                                     onclick="showContact('','tag-cover-div')"><img
+                                <div class="inner-card-row3-content-dis"><div color="grey">医疗健康
+                                        /</div></div>
+                                <div class="inner-card-row3-content-dis"><div color="grey">Pre-A 轮
+                                        /</div></div>
+                                <div class="inner-card-row3-content-dis"><div color="grey">80后
+                                        /</div></div>
+                                <div class="inner-card-row3-content-dis"><div color="grey">游戏
+                                        /</div></div>
+                                <div class="inner-card-row3-content-dis"><div color="grey">O2O
+                                        </div></div>
+                                <div class="me-moretag"
+                                     onclick="showContact('','tag-cover-div')"><img class="image-me-more-tag"
                                         src="<?php echo base_url('assets/images/me_more.png') ?>"
                                         height="10px"
                                         width="auto"/></div>
@@ -208,27 +209,27 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
 
                 </div>
-                <div id="notify-cover-div" class="notify-cover-div" style="height:340px;">
+                <div id="notify-cover-div" class="notify-cover-div" style="height:100%;">
 
                     <div class="inner-notify-HTML scroll">
                         <div class="tag bc-flex">
 
-                            <div class="bc-flex">
+                            <div class="bc-flex me-small-tag">
                                 <img class="margin-10px" src="<?php echo base_url('assets/images/collect01.png'); ?>" width="auto" height="16"/>
                                 <font class="margin-5px notify-tit" color="#898a8a">1万+</font>
                             </div>
 
-                            <div class="ch-left-border bc-flex">
+                            <div class="ch-left-border bc-flex me-small-tag">
                                 <img class="margin-10px" src="<?php echo base_url('assets/images/collect01.png'); ?>" width="auto" height="16"/>
                                 <font class="margin-5px notify-tit" color="#898a8a">1654</font>
                             </div>
 
-                            <div class="ch-left-border bc-flex">
+                            <div class="ch-left-border bc-flex me-small-tag">
                                 <img class="margin-10px" src="<?php echo base_url('assets/images/comment01.png'); ?>" width="auto" height="16"/>
                                 <font class="margin-5px notify-tit" color="#898a8a">1890</font>
                             </div>
 
-                            <div class="ch-left-border bc-flex">
+                            <div class="ch-left-border bc-flex me-small-tag">
                                 <img class="margin-10px" src="<?php echo base_url('assets/images/contact01.png'); ?>" width="auto" height="16"/>
                                 <font class="margin-5px notify-tit" color="#898a8a">4568</font>
                             </div>
@@ -247,7 +248,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="notify-col2-row2 bc-flex"><font color="grey">回复回复回复回复回复回复回复回复回复回复回复回复回复回复</font>
                                 </div>
                                 <div class="notify-col2-row3">
-                                    <font color="grey">1 minute ago</font>
+                                    <font color="#9fa0a0">1 minute ago</font>
                                 </div>
                             </div>
                         </div>
@@ -265,7 +266,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="notify-col2-row2 bc-flex"><font color="grey">回复回复回复回复回复回复回复回复回复回复回复回复回复回复</font>
                                 </div>
                                 <div class="notify-col2-row3">
-                                    <font color="grey">1 minute ago</font>
+                                    <font color="#9fa0a0">1 minute ago</font>
                                 </div>
                             </div>
                         </div>
@@ -283,7 +284,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="notify-col2-row2 bc-flex"><font color="grey">回复回复回复回复回复回复回复回复回复回复回复回复回复回复</font>
                                 </div>
                                 <div class="notify-col2-row3">
-                                    <font color="grey">1 minute ago</font>
+                                    <font color="#9fa0a0">1 minute ago</font>
                                 </div>
                             </div>
                         </div>
@@ -301,7 +302,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="notify-col2-row2 bc-flex"><font color="grey">回复回复回复回复回复回复回复回复回复回复回复回复回复回复</font>
                                 </div>
                                 <div class="notify-col2-row3">
-                                    <font color="grey">1 minute ago</font>
+                                    <font color="#9fa0a0">1 minute ago</font>
                                 </div>
                             </div>
                         </div>
@@ -312,7 +313,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
             </div>
 
-            <div class="option-part bc-flex">
+            <div id="notify-cover-div" class="option-part bc-flex card-over-div">
                 <div class="whitebubble-top-left-right option-1 bc-flex" onclick="showContact('notify-cover-div','card-cover-div');">
                     <img src="<?php echo base_url('assets/images/me02.png'); ?>" height="20px" width="auto"/>
                     <font class="option-font-style">我的卡片</font>
@@ -323,6 +324,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <img src="<?php echo base_url('assets/images/ring02.png'); ?>" height="20px" width="auto"/>
                         <font class="option-font-style">我的消息</font>
                     </div>
+                </div>
+            </div>
+
+            <div id="card-cover-div" class="option-part2 bc-flex notify-cover-div">
+                <div class="whitebubble-top-left-right option-1 bc-flex" onclick="showContact('notify-cover-div','card-cover-div');">
+                    <div class="greybubble-top-right-bottom-left-right option-insert bc-flex">
+                        <img src="<?php echo base_url('assets/images/me01.png'); ?>" height="20px" width="auto"/>
+                        <font class="option-font-style">我的卡片</font>
+                    </div>
+                </div>
+
+                <div class="option-2 bc-flex whitebackground-right-option" onclick="showContact('card-cover-div','notify-cover-div');">
+
+                        <img src="<?php echo base_url('assets/images/ring03.png'); ?>" height="20px" width="auto"/>
+                        <font class="option-font-style">我的消息</font>
+
                 </div>
             </div>
 
@@ -383,6 +400,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         window.location.href = url;
     }
     //隐藏前面 显示后面
+
     function showContact(ctOne, ctTwo) {
         document.getElementById(ctTwo).style.visibility = "visible";
         document.getElementById(ctOne).style.visibility = "hidden";
@@ -398,6 +416,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             document.getElementById('img1').setAttribute('src', '<?php echo base_url('assets/images/me_public01.png'); ?>');
         }
     }
+
 </script>
 
 </body>

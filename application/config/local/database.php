@@ -52,7 +52,7 @@ $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
 $db['default']['db_debug'] = TRUE;
 $db['default']['cache_on'] = FALSE;
-$db['default']['cachedir'] = getenv('OPENSHIFT_DATA_DIR') . 'storage/framework/dbcache';
+$db['default']['cachedir'] = 'storage/framework/dbcache';
 $db['default']['char_set'] = 'utf8';
 $db['default']['dbcollat'] = 'utf8_general_ci';
 $db['default']['swap_pre'] = '';
@@ -62,10 +62,11 @@ $db['default']['stricton'] = FALSE;
 
 //             mysql://adminuLKEwwx:L22jt3MAIn-E@127.7.140.130:3306/
 $db['default']['dbdriver'] = 'mysql';
-$db['default']['hostname'] = '127.7.140.130';
+$db['default']['hostname'] = 'localhost';
+//$db['default']['hostname'] = '127.7.140.130';
 $db['default']['port'] = '3306';
-$db['default']['username'] = 'adminuLKEwwx';
-$db['default']['password'] = 'L22jt3MAIn-E';
+$db['default']['username'] = 'root';
+$db['default']['password'] = 'Xiankanren123';
 $db['default']['database'] = 'xkr';
 
 /* End of file database.php */
