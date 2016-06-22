@@ -21,7 +21,7 @@
     .me-3div-row1 {
         width: 28rem;
         height: 32rem;
-        margin: auto auto;
+        margin-left: 6%;
     }
 
 
@@ -36,11 +36,10 @@
     }
 
     .option-part {
-        width: 88%;
-        height: 6.89%;
+        width: 100%;
+        height: 11.89%;
         background-color: #e1e1e1;
         visibility: visible;
-        position:fixed;
         border-bottom-right-radius: 1rem;
         border-bottom-left-radius: 1rem;
     }
@@ -109,7 +108,19 @@
 
     .inner-notify-HTML {
         width: 28rem; /*这里指定网页中部宽度*/
-        height: 26.8rem;
+        height: 28.8rem;
+        background-color: transparent;
+        clear: both;
+        overflow: auto;
+        overflow-x: hidden;
+        background-color: #FFFFFF;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+
+    .inner-notify-HTML2 {
+        width: 28rem; /*这里指定网页中部宽度*/
+        height: 23rem;
         background-color: transparent;
         clear: both;
         overflow: auto;
@@ -147,6 +158,29 @@
         height: 12%;
     }
 
+    .tag-inner-co {
+        height: 79%;
+        width: 95%;
+        padding: 0.7rem 0.5rem 0.7rem 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .tag-inner-split-smoption {
+        height: 17px;
+        width: 53px;
+        border: 1px solid #a7a7a8;
+    }
+
+    .inner-tag-HTML {
+        /*这里指定网页中部宽度*/
+        height: 125px;
+        width: 328px;
+        background-color: transparent;
+        clear: both;
+        overflow: auto;
+        overflow-x: hidden
+    }
+
 
 }
 
@@ -169,7 +203,7 @@
     .me-3div-row1 {
         width: 33rem;
         height: 38rem;
-        margin: auto auto;
+        margin-left: 6%;
     }
 
     .notify-button {
@@ -184,11 +218,10 @@
     }
 
     .option-part {
-        width: 88%;
-        height: 6.89%;
+        width: 100%;
+        height: 11.89%;
         background-color: #e1e1e1;
         visibility: visible;
-        position:fixed;
         border-bottom-right-radius: 1rem;
         border-bottom-left-radius: 1rem;
     }
@@ -259,6 +292,18 @@
         overflow: auto;
         overflow-x: hidden;
         background-color: #FFFFFF;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+
+    .inner-notify-HTML2 {
+        width: 33rem; /*这里指定网页中部宽度*/
+        height: 27.24rem;
+        background-color: transparent;
+        clear: both;
+        overflow: auto;
+        overflow-x: hidden;
+        background-color: #FFFFFF;
     }
 
     .notify-tit {
@@ -298,6 +343,29 @@
         height: 14%;
     }
 
+    .tag-inner-co {
+        height: 79%;
+        width: 95%;
+        margin-top: 4%;
+        padding: 0.7rem 0.5rem 0.7rem 0.5rem;
+    }
+
+    .tag-inner-split-smoption {
+        height: 17px;
+        width: 58px;
+        border: 1px solid #a7a7a8;
+    }
+
+    .inner-tag-HTML {
+        /*这里指定网页中部宽度*/
+        height: 125px;
+        width: 328px;
+        background-color: transparent;
+        clear: both;
+        overflow: auto;
+        overflow-x: hidden
+    }
+
 }
 
 
@@ -326,15 +394,14 @@
     .me-3div-row1 {
         width: 37rem;
         height: 42rem;
-        margin: auto auto;
+        margin-left: 6%;
     }
 
     .option-part {
         width: 37rem;
-        height: 6.89%;
+        height: 11.89%;
         background-color: #e1e1e1;
         visibility: visible;
-        position:fixed;
         border-bottom-right-radius: 1rem;
         border-bottom-left-radius: 1rem;
     }
@@ -371,11 +438,46 @@
         overflow: auto;
         overflow-x: hidden;
         background-color: #FFFFFF;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+
+    .inner-notify-HTML2 {
+        width: 37rem; /*这里指定网页中部宽度*/
+        height: 30rem;
+        background-color: transparent;
+        clear: both;
+        overflow: auto;
+        overflow-x: hidden;
+        background-color: #FFFFFF;
     }
 
     .notify-button {
         height: 9rem;
         width: 14rem;
+    }
+
+    .tag-inner-co {
+        height: 71%;
+        width: 98%;
+        margin-top: -4%;
+        padding: 0.7rem 0.5rem 0.7rem 0.5rem;
+    }
+
+    .tag-inner-split-smoption {
+        height: 20px;
+        width: 60px;
+        border: 1px solid #a7a7a8;
+    }
+
+    .inner-tag-HTML {
+        /*这里指定网页中部宽度*/
+        height: 160px;
+        width: 340px;
+        background-color: transparent;
+        clear: both;
+        overflow: auto;
+        overflow-x: hidden
     }
 
 
@@ -645,7 +747,6 @@
 .notify-cover-div {
     position: absolute;
     top: 0;
-    visibility: hidden;
     width: 100%;
     background-color: #FFFFFF;
     z-index: 0;
@@ -656,22 +757,24 @@
 /*--------------------------------先看人－Me 页面－End--------------------------------------*/
 
 /*--------------------------------先看人－Me Tag 页面－Start--------------------------------------*/
-.inner-tag-HTML {
-    /*这里指定网页中部宽度*/
-    height: 125px;
-    width: 328px;
-    background-color: transparent;
-    clear: both;
-    overflow: auto;
-    overflow-x: hidden
-}
+
 
 .greybubble {
+    background: #eeeeee;
+    position: relative;
+    -moz-border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    border-radius: 0.4rem;
+}
+
+.greybubble2 {
     background: #e2e2e2;
     position: relative;
     -moz-border-radius: 1rem;
     -webkit-border-radius: 1rem;
-    border-radius: 1rem;
+    border-radius: 0.4rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
 .darkgreybubble {
@@ -688,11 +791,6 @@
 
 }
 
-.tag-inner-co {
-    height: 87%;
-    width: 90%;
-    margin-top: 4%;
-}
 
 .tag-inner-option {
     height: 100%;
@@ -714,12 +812,6 @@
     height: 33.33%;
 }
 
-.tag-inner-split-smoption {
-    height: 15px;
-    width: 51px;
-    border: 1px solid #595858;
-}
-
 iframe {
     border-top-color: transparent;
     border-right-color: transparent;
@@ -734,7 +826,7 @@ iframe {
 }
 
 .option-font {
-    font-size: 11px;
+    font-size: 12px;
     color: #595858;
 }
 
@@ -912,8 +1004,6 @@ iframe {
     height: 12%;
     background-color: #e1e1e1;
     z-index: 3;
-    visibility: hidden;
-    position: relative;
     border-bottom-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
 
@@ -922,6 +1012,24 @@ iframe {
 .image-me-more-tag {
     height: 1.3rem;
     width: auto;
+}
+
+.greybubble-top-right-bottom-left-right2 {
+    background-color: #e2e2e2;
+    position: relative;
+    border-top-left-radius: 0rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.whitebackground-right-option2 {
+    background-color: #FFFFFF;
+    position: relative;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 
 

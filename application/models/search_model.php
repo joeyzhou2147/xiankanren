@@ -56,7 +56,7 @@ class Search_model extends CI_Model
         }
 
         //插入search表格结束，然后返回search的user结果，id 姓名 图片 身份 公司 标签
-        $this->db->select('user_id, user_name, user_company, user_detail, user_role, tag_status, user_image');
+        $this->db->select('user_id, user_name, user_company, user_detail, user_role, tag_sum, user_image');
         //        $likeArray = array('user_name' => $searchText, 'user_company' => $searchText, 'user_detail' => $searchText);
         //        $this->db->like($likeArray);
 
@@ -64,7 +64,7 @@ class Search_model extends CI_Model
         $this->db->or_like(array('user_company' => $searchText));
         $this->db->or_like(array('user_detail' => $searchText));
         $this->db->or_like(array('user_role' => $searchText));
-        $this->db->or_like(array('tag_status' => $searchText));
+        $this->db->or_like(array('tag_sum' => $searchText));
         //$this->db->where('page_online',1);
         //$this->db->where('page_site',$page_site);
 
@@ -78,7 +78,7 @@ class Search_model extends CI_Model
     public function getTopTen()
     {
         //返回search的user结果，id 姓名 图片 身份 公司 标签
-        $this->db->select('user_id, user_name, user_company, user_detail, user_role, tag_status, user_image');
+        $this->db->select('user_id, user_name, user_company, user_detail, user_role, tag_sum, user_image');
 //        $this->db->like(array('user_name' => $searchText));
 //        $this->db->or_like(array('user_company' => $searchText));
 //        $this->db->or_like(array('user_detail' => $searchText));

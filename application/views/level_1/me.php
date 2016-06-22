@@ -51,9 +51,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div class="font-xihei bc-me-3div-container">
 
     <div class="me-3div-background">
-        <div class="me-3div-row1 greybubble">
 
+        <div id="card-cover-div" class="me-3div-row1 greybubble2" style="visibility: visible; position: absolute">
             <div class="content-part whitebubble-bottom-left">
+
                 <div id="tag-cover-div" class="tag-cover-div bc-flex">
                     <div class="inner-tag-HTML" style="">
                         <div class="tag-inner-content bc-flex">
@@ -147,7 +148,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="inner-card-row1-content bc-flex"
                                  onclick="toHref('<?php echo base_url('level_2/edit') ?>')">
                                 <div class="inner-card-row1-pic"><img class="image-me-edit"
-                                        src="<?php echo base_url('assets/images/edit.png') ?>" >
+                                                                      src="<?php echo base_url('assets/images/edit.png') ?>" >
                                 </div>
                                 <div class="inner-card-row1-word"><font color="#ce1442" font-size="10px">编辑</font></div>
                             </div>
@@ -184,12 +185,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="inner-card-row3-content-dis"><div color="grey">游戏
                                         /</div></div>
                                 <div class="inner-card-row3-content-dis"><div color="grey">O2O
-                                        </div></div>
+                                    </div></div>
                                 <div class="me-moretag"
                                      onclick="showContact('','tag-cover-div')"><img class="image-me-more-tag"
-                                        src="<?php echo base_url('assets/images/me_more.png') ?>"
-                                        height="10px"
-                                        width="auto"/></div>
+                                                                                    src="<?php echo base_url('assets/images/me_more.png') ?>"
+                                                                                    height="10px"
+                                                                                    width="auto"/></div>
                             </div>
                         </div>
 
@@ -209,9 +210,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
 
                 </div>
-                <div id="notify-cover-div" class="notify-cover-div" style="height:100%;">
 
-                    <div class="inner-notify-HTML scroll">
+            </div>
+
+            <div class="option-part bc-flex card-over-div">
+                <div class="whitebubble-top-left-right option-1 bc-flex" onclick="showContact('notify-cover-div','card-cover-div');">
+                    <img src="<?php echo base_url('assets/images/me02.png'); ?>" height="20px" width="auto"/>
+                    <font class="option-font-style">我的卡片</font>
+                </div>
+
+                <div class="option-2 bc-flex whitebackground-right-option" onclick="showContact('card-cover-div','notify-cover-div');">
+                    <div class="greybubble-top-right-bottom-left-right option-insert bc-flex">
+                        <img src="<?php echo base_url('assets/images/ring02.png'); ?>" height="20px" width="auto"/>
+                        <font class="option-font-style">我的消息</font>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="notify-cover-div" class="me-3div-row1 greybubble2" style="visibility: hidden; position: relative">
+
+            <div class="content-part whitebubble-bottom-left">
+
+                <div class="notify-cover-div" style="height:100%;">
+
+                    <div class="inner-notify-HTML">
                         <div class="tag bc-flex">
 
                             <div class="bc-flex me-small-tag">
@@ -235,77 +258,83 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                         </div>
 
-                        <div class="notify-row1 notify-border bc-flex">
-                            <div class="notify-col1 bc-flex">
-                                <div class="bc-flex">
-                                    <image class="image-picture1" src="<?php echo base_url('assets/images/default_person1.png'); ?>">
+                        <div class="inner-notify-HTML2 scroll">
+
+                            <div class="notify-row1 notify-border bc-flex">
+                                <div class="notify-col1 bc-flex">
+                                    <div class="bc-flex">
+                                        <image class="image-picture1" src="<?php echo base_url('assets/images/default_person1.png'); ?>">
+                                    </div>
+                                </div>
+                                <div class="notify-col2">
+                                    <div class="notify-col2-row1">
+                                        <font class="notify-col2-row1-name" color="black">姓名</font>
+                                    </div>
+                                    <div class="notify-col2-row2 bc-flex"><font color="grey">回复回复回复回复回复回复回复回复回复回复回复回复回复回复</font>
+                                    </div>
+                                    <div class="notify-col2-row3">
+                                        <font color="#9fa0a0">1 minute ago</font>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="notify-col2">
-                                <div class="notify-col2-row1">
-                                    <font class="notify-col2-row1-name" color="black">姓名</font>
+
+                            <div class="notify-row1 notify-border bc-flex">
+                                <div class="notify-col1 bc-flex">
+                                    <div class="bc-flex">
+                                        <image class="image-picture1" src="<?php echo base_url('assets/images/default_person1.png'); ?>">
+                                    </div>
                                 </div>
-                                <div class="notify-col2-row2 bc-flex"><font color="grey">回复回复回复回复回复回复回复回复回复回复回复回复回复回复</font>
-                                </div>
-                                <div class="notify-col2-row3">
-                                    <font color="#9fa0a0">1 minute ago</font>
+                                <div class="notify-col2">
+                                    <div class="notify-col2-row1">
+                                        <font class="notify-col2-row1-name" color="black">姓名</font>
+                                    </div>
+                                    <div class="notify-col2-row2 bc-flex"><font color="grey">回复回复回复回复回复回复回复回复回复回复回复回复回复回复</font>
+                                    </div>
+                                    <div class="notify-col2-row3">
+                                        <font color="#9fa0a0">1 minute ago</font>
+                                    </div>
                                 </div>
                             </div>
+
+                            <div class="notify-row1 notify-border bc-flex">
+                                <div class="notify-col1 bc-flex">
+                                    <div class="bc-flex">
+                                        <image class="image-picture1" src="<?php echo base_url('assets/images/default_person1.png'); ?>">
+                                    </div>
+                                </div>
+                                <div class="notify-col2">
+                                    <div class="notify-col2-row1">
+                                        <font class="notify-col2-row1-name" color="black">姓名</font>
+                                    </div>
+                                    <div class="notify-col2-row2 bc-flex"><font color="grey">回复回复回复回复回复回复回复回复回复回复回复回复回复回复</font>
+                                    </div>
+                                    <div class="notify-col2-row3">
+                                        <font color="#9fa0a0">1 minute ago</font>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="notify-row1 notify-border bc-flex">
+                                <div class="notify-col1 bc-flex">
+                                    <div class="bc-flex">
+                                        <image class="image-picture1" src="<?php echo base_url('assets/images/default_person1.png'); ?>">
+                                    </div>
+                                </div>
+                                <div class="notify-col2">
+                                    <div class="notify-col2-row1">
+                                        <font class="notify-col2-row1-name" color="black">姓名</font>
+                                    </div>
+                                    <div class="notify-col2-row2 bc-flex"><font color="grey">回复回复回复回复回复回复回复回复回复回复回复回复回复回复</font>
+                                    </div>
+                                    <div class="notify-col2-row3">
+                                        <font color="#9fa0a0">1 minute ago</font>
+                                    </div>
+                                </div>
+                            </div>
+
+
                         </div>
 
-                        <div class="notify-row1 notify-border bc-flex">
-                            <div class="notify-col1 bc-flex">
-                                <div class="bc-flex">
-                                    <image class="image-picture1" src="<?php echo base_url('assets/images/default_person1.png'); ?>">
-                                </div>
-                            </div>
-                            <div class="notify-col2">
-                                <div class="notify-col2-row1">
-                                    <font class="notify-col2-row1-name" color="black">姓名</font>
-                                </div>
-                                <div class="notify-col2-row2 bc-flex"><font color="grey">回复回复回复回复回复回复回复回复回复回复回复回复回复回复</font>
-                                </div>
-                                <div class="notify-col2-row3">
-                                    <font color="#9fa0a0">1 minute ago</font>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="notify-row1 notify-border bc-flex">
-                            <div class="notify-col1 bc-flex">
-                                <div class="bc-flex">
-                                    <image class="image-picture1" src="<?php echo base_url('assets/images/default_person1.png'); ?>">
-                                </div>
-                            </div>
-                            <div class="notify-col2">
-                                <div class="notify-col2-row1">
-                                    <font class="notify-col2-row1-name" color="black">姓名</font>
-                                </div>
-                                <div class="notify-col2-row2 bc-flex"><font color="grey">回复回复回复回复回复回复回复回复回复回复回复回复回复回复</font>
-                                </div>
-                                <div class="notify-col2-row3">
-                                    <font color="#9fa0a0">1 minute ago</font>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="notify-row1 notify-border bc-flex">
-                            <div class="notify-col1 bc-flex">
-                                <div class="bc-flex">
-                                    <image class="image-picture1" src="<?php echo base_url('assets/images/default_person1.png'); ?>">
-                                </div>
-                            </div>
-                            <div class="notify-col2">
-                                <div class="notify-col2-row1">
-                                    <font class="notify-col2-row1-name" color="black">姓名</font>
-                                </div>
-                                <div class="notify-col2-row2 bc-flex"><font color="grey">回复回复回复回复回复回复回复回复回复回复回复回复回复回复</font>
-                                </div>
-                                <div class="notify-col2-row3">
-                                    <font color="#9fa0a0">1 minute ago</font>
-                                </div>
-                            </div>
-                        </div>
 
 
                     </div>
@@ -313,29 +342,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
             </div>
 
-            <div id="notify-cover-div" class="option-part bc-flex card-over-div">
+            <div class="option-part2 bc-flex">
                 <div class="whitebubble-top-left-right option-1 bc-flex" onclick="showContact('notify-cover-div','card-cover-div');">
-                    <img src="<?php echo base_url('assets/images/me02.png'); ?>" height="20px" width="auto"/>
-                    <font class="option-font-style">我的卡片</font>
-                </div>
-
-                <div class="option-2 bc-flex whitebackground-right-option" onclick="showContact('card-cover-div','notify-cover-div');">
-                    <div class="greybubble-top-right-bottom-left-right option-insert bc-flex">
-                        <img src="<?php echo base_url('assets/images/ring02.png'); ?>" height="20px" width="auto"/>
-                        <font class="option-font-style">我的消息</font>
-                    </div>
-                </div>
-            </div>
-
-            <div id="card-cover-div" class="option-part2 bc-flex notify-cover-div">
-                <div class="whitebubble-top-left-right option-1 bc-flex" onclick="showContact('notify-cover-div','card-cover-div');">
-                    <div class="greybubble-top-right-bottom-left-right option-insert bc-flex">
+                    <div class="greybubble-top-right-bottom-left-right2 option-insert bc-flex">
                         <img src="<?php echo base_url('assets/images/me01.png'); ?>" height="20px" width="auto"/>
                         <font class="option-font-style">我的卡片</font>
                     </div>
                 </div>
 
-                <div class="option-2 bc-flex whitebackground-right-option" onclick="showContact('card-cover-div','notify-cover-div');">
+                <div class="option-2 bc-flex whitebackground-right-option2" onclick="showContact('card-cover-div','notify-cover-div');">
 
                         <img src="<?php echo base_url('assets/images/ring03.png'); ?>" height="20px" width="auto"/>
                         <font class="option-font-style">我的消息</font>
@@ -402,9 +417,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     //隐藏前面 显示后面
 
     function showContact(ctOne, ctTwo) {
+        if(ctOne!="tag-cover-div"&&ctTwo!="tag-cover-div"){
+            document.getElementById("tag-cover-div").style.visibility = "hidden";
+        }
         document.getElementById(ctTwo).style.visibility = "visible";
         document.getElementById(ctOne).style.visibility = "hidden";
     }
+
     var numb = 0;
     function showing() {
         if (numb == 0) {
