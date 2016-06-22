@@ -66,7 +66,7 @@ $db['default']['hostname'] = 'localhost';
 //$db['default']['hostname'] = '127.7.140.130';
 $db['default']['port'] = '3306';
 $db['default']['username'] = 'root';
-$db['default']['password'] = 'Xiankanren123';
+$db['default']['password'] = 'root';
 $db['default']['database'] = 'xkr';
 
 /* End of file database.php */

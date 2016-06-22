@@ -21,6 +21,7 @@
     -webkit-align-items: center; /* Safari 7.0+ */
 }
 
+
 .bc-row-start {
     justify-content: flex-start;
     -webkit-justify-content: flex-start; /* Safari 6.1+ */
@@ -179,7 +180,7 @@ body {
     bottom: 0;
     z-index: 1000;
     /* Set the fixed height of the footer here */
-    height: 4.4rem;
+    height: 4.7rem;
     background-color: #ffffff;
 }
 
@@ -203,10 +204,11 @@ body {
 .icon-footer-div > .icon-footer-row1 {
     align-items: flex-end;
     height: 2.7rem;
+    padding-bottom: 0.1rem;
 }
 
 .icon-footer-div > .icon-footer-row2 {
-    height: 1.6rem;
+    height: 1.9rem;
     align-items: flex-end;
     font-size: 1.2rem;
     display: flex;
@@ -458,6 +460,10 @@ body {
 
 .pay-row2-col2 {
     width: 40%;
+}
+
+.bc-padding {
+    padding-left: 0.1rem;
 }
 
 /*--------------------------------先看人－联系按钮组件 页面－End--------------------------------------*/

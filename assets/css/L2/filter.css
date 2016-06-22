@@ -34,12 +34,12 @@ body {
     top: 0;
     background: #fff;
     z-index: 1000;
-    height: 47px;
-    border-bottom: 1px solid #E28FA1;
+    height: 3.8rem;
+    border-bottom: 1px solid rgb(244, 203, 215);
 }
 .filter-top-bar {
     width: 100%;
-    height: 46px;
+    height: 3.8rem;
 }
 
 .filter-top-half {
@@ -88,7 +88,7 @@ body {
     width: 100%;
     height: 100%;
     background-color: #EFEFEF;
-    margin-top: 47px;
+    margin-top: 3.8rem;
 }
 
 .filter-container3 {
@@ -145,7 +145,7 @@ body {
     width: 100%;
     position: fixed;
     bottom: 0;
-    height: 2.45rem;
+    height: 4.7rem;
     background: #fff;
     z-index: 1000;
 }
@@ -223,4 +223,8 @@ body {
     align-items: center;
     justify-content: center;
     color: #d72d53;
+}
+
+.footer-line {
+    border-top: 1px solid rgb(244, 203, 215);
 }

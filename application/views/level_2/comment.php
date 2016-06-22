@@ -49,14 +49,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             display: inline-block;
             height: auto;
             position: absolute;
-            top:4.4rem;
+            top:3.8rem;
             bottom: 4.4rem;
             overflow-y: scroll;
         } 
 
         .bc-top-bar {
             width: 100%;
-            height: 4.4rem;
+            height: 3.8rem;
         }
 
         .bc-top-half{
@@ -65,7 +65,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         }
 
         .bc-header {
-            height: 4.4rem;
+            height: 3.8rem;
             border-bottom: 0.1rem solid #F4CBD7;
         }
 
@@ -202,7 +202,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <img class="image-com-comment" src="<?php echo base_url('assets/images/comment02.png'); ?>"/>
             </div>
             <div class="bc-top-title bc-flex">
-                <div class="bc-top-half bc-flex font-xihei">留言</div>
+                <div class="bc-top-half bc-flex font-xihei" style="padding-left: 1rem;">留言</div>
             </div>
             <div class="bc-flex font-xihei bc-top-filter" onclick="tohref('<?php echo base_url("level_2/edit"); ?>')">
                 <div class="bc-flex"></div>
@@ -297,7 +297,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 
 
-<footer class="footer id="footer" bc-flex">
+<footer id="footer" class="footer bc-flex">
     <div class="container bc-flex">
         <form class="comment-footer-box bc-flex">
             <input class="comment-footer-box-input" id="footer-box-input" type="text" placeholder="留下评论，带走好运..." onfocus="backgroundch()" onblur="returnback()"/>        

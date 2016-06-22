@@ -1,0 +1,1010 @@
+/*!
+ * Xiankanren
+ * Copyright 2011-2015 Twitter, Inc.
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+        body > .container {
+            padding: 60px 15px 0;
+        }
+
+        .container .text-muted {
+            margin: 20px 0;
+        }
+
+        code {
+            font-size: 80%;
+        }
+
+        /* ----------- filter end --------------*/
+
+        /*header start*/
+
+        .common-flex {
+            display: flex;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            justify-content: center;
+            align-items: center;
+            -webkit-justify-content: center; /* Safari 6.1+ */
+            -webkit-align-items: center; /* Safari 7.0+ */
+        }
+
+        .bc-flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex; /* Safari */
+            -webkit-justify-content: center; /* Safari 6.1+ */
+            -webkit-align-items: center; /* Safari 7.0+ */
+        }
+
+        .common-block {
+            display: inline-block;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .bc-top-bar {
+            width: 100%;
+            height: 38px;
+        }
+
+        .font-xihei {
+            font-family: STXihei;
+        }
+
+        /* ----------- Nexus 5 and 6 ----------- */
+
+        @media screen and (min-width: 320px) and (max-width: 411px) and (min-height: 659px) {
+            .bc-container {
+                margin-top: 130px;
+            }
+
+            .bc-row-two {
+                margin-top: 40px;
+            }
+        }
+
+        @media screen and (min-width: 320px) and (max-width: 401px) and (min-height: 659px) {
+            .bc-container {
+                margin-top: 45px;
+            }
+
+            .bc-row-two {
+                margin-top: 0px;
+            }
+        }
+
+        /*i-6*/
+
+        @media screen and (min-width: 375px) and (min-height: 769px) {
+            .bc-container {
+                margin-top: 0px;
+            }
+        }
+
+        /* ----------- Nexus 5 and 6 ----------- */
+        /* ----------- iPhone 4 and 4S ----------- */
+
+        @media only screen and (min-width: 320px) {
+        }
+
+
+
+        /* ----------- edit start --------------*/
+
+        /*------------ edit end----------*/
+
+        /*---------------------Jing Wang Modify-------------------*/
+        @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+
+        .tag-inner-option{
+            height: 100%;
+            width: 85%;
+        }
+
+        .tag-inner-cancel{
+            height: 100%;
+            width: 10%;
+            margin-left: 0.8rem;
+        }
+
+        .bubble-five {
+            background: #ebebeb;
+            position: relative;
+            -moz-border-radius: 0.5rem;
+            -webkit-border-radius: 0.5rem;
+            border-radius: 0.5rem; 
+        }
+
+        .tag-cover-div{
+            background-color: transparent;
+            width: 79%;
+            height: 16%;
+            margin-top: 1.1rem;
+            margin-left: 0rem;
+            font-size: 1.1rem;
+            color: #5f5e5e;
+        }
+
+        .tag-inner-split-vertical{
+            width: 5rem;
+            height: 1.5rem;
+            margin-top: 0.9rem;
+            margin-left:1rem;
+            border: 1px solid #a7a7a8;
+        }
+
+        .home-card-row4-content {
+            height: 26px;
+        }
+
+        .home-card-row3-content-more {
+            height: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .home-card-row2-col2-row2 {
+            padding-top: 0.3rem;
+            font-size: 1.4rem;
+        }
+
+        .card-cover-div{
+            width: 85%;
+            height: 100%;
+        }
+
+        .bc-contact-pay-row2-content {
+            width: 34.8rem;
+            height:5.8rem;
+        }
+
+        .home-row2 {
+            margin-top: 0.8rem;
+            height: 40%;
+            background-color: #EFEFEF;
+        }
+
+        .bc-contact-pay-row2-col1 {
+            height: 100%;
+            width: 26.5%;
+        }
+
+        .bc-contact-pay-row2-col2 {
+            height: 100%;
+            width: 26.5%;
+            margin-left: 1rem;
+        }
+
+        .bc-contact-pay-row2-col3 {
+            height: 100%;
+            width: 26.5%;
+            margin-left: 1rem;
+        }
+
+        
+        
+        .talkbubble {
+            background: white;
+            position: relative;
+            -moz-border-radius:    1rem;
+            -webkit-border-radius: 1rem;
+            border-radius:         1rem;
+        }
+
+        .talkbubble:before {
+            visibility: hidden;
+            content:"";
+            position: absolute;
+            top: 100%;
+            left: 4rem;
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-top: 20px solid white;
+            border-right: 10px solid transparent;
+        }
+
+        .cardbubble {
+            background: white;
+            position: relative;
+            -moz-border-radius:    1rem;
+            -webkit-border-radius: 1rem;
+            border-radius:         1rem;
+        }
+
+        .cardbubble:before {
+            content:"";
+            position: absolute;
+            top: 100%;
+            left: 3.3rem;
+            width: 0;
+            height: 0;
+            border-left: 8px solid transparent;
+            border-top: 14px solid white;
+            border-right: 8px solid transparent;
+        }
+
+
+        .home-row1{
+            margin-top: 2rem;
+            height: 30rem;
+        }
+
+        .contact-info-HTML {
+            height: 100%;
+            background-color: transparent;
+            width: 100%; /*iphone 5*/
+            padding-top: 1.5rem;
+            float: left;
+            position: relative;
+        }
+
+        .contact-pay-HTML{
+            height: 100%;
+            width: 100%;
+        }
+
+        .contact-info-row1 {
+            margin-top: 2rem;
+            height: 13%;
+            width: 100%;
+        }
+
+        .contact-info-row1-content {
+            width: 100%;
+            height: 50px;
+            display: flex;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            margin-left: 2rem;
+            }
+
+        .contact-info-row1-col2-row1 {
+            height: 28px;
+            display: flex;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            align-items: flex-end;
+            -webkit-align-items: flex-end; /* Safari 7.0+ */
+        }
+
+        .contact-info-row1-col2-row1-name {
+            font-size: 23px;
+            font-weight: bolder;
+            color: #3e3a39;
+        }
+
+        .contact-info-row1-col2-row1-role {
+            font-size: 1.3rem;
+            padding-left: 1.3rem;
+            padding-bottom: 0.2rem;
+            color: #5f5e5e;
+        }
+
+        .contact-info-row1-col2-row2 {
+            padding-top: 0.6rem;
+            font-size: 1.4rem;
+            color: #5f5e5e;
+        }
+
+        .contact-info-row1-col2 {
+            margin-left: 1.3rem;
+            display: inline-block;
+        }
+
+        .contact-info-row2 {
+            width: 100%;
+            height: 10%;
+            padding-top: 2rem;
+        }
+
+        .contact-info-row2-content {
+            width: 92%;
+            height: 100%;
+            margin-left: 1rem;
+            font-size: 1.3rem;
+            color: #b3b5b6;
+        }
+
+
+        .contact-info-row2-content-dis {
+            width: 100%;
+            text-align: start;
+            font-size: 1.3rem;
+            color: #5f5e5e;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #EFEFEF;
+        }
+
+        .contact-pic{
+            width: 2.8rem;
+            height: auto;
+            margin-left: 0rem;
+        }
+
+        .contact-mar{
+            margin-top: 2rem;
+        }
+
+        .contact-info-row{
+            width: 100%;
+            height: 9%;
+        }
+
+        .contact-info-pic{
+            height: 100%;
+            width : 25%;
+        }
+
+        .line-left-margin{
+            font-size: 1.2rem;
+            width: 75%;
+            height: 100%;
+            margin-left: -1rem;
+            /*display: inline-flex;*/
+            display: inline-flex;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+        }
+
+        .contact-font{
+            margin-left:0;
+            color: #5f5e5e;
+        }
+
+        .contact-font-num{
+            margin-left: 0.6rem;
+        }
+
+        .contact-info-cho{
+            float: left;
+        }
+
+        .contact-info-firstline{
+            margin-top: 5rem;
+        }
+
+        .home-card-HTML{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            padding-bottom: 0;
+        }
+
+        .home-card-row2 {
+            margin-top: 0.5rem;
+            height: 13.5%;
+            width: 100%;
+        }
+
+        .home-card-row3{
+            width: 100%;
+            height: 14%;
+            padding-top: 1rem;
+        }
+
+        .home-card-row4{
+            width: 100%;
+            height: 10%;
+        }
+
+
+        .home-card-row2-col2-row1-role{
+            font-size: 1.3rem;
+            padding-left: 1.3rem;
+            padding-bottom: 0.2rem;
+            color: #5f5e5e;
+        }
+
+        
+
+        .home-card-row3-content-dis {
+            width: 100%;
+            text-align: start;
+            font-size: 1.3rem;
+            color: #5f5e5e;
+        }
+
+        .home-card-row4-content-dis {
+            height: 20px;
+            width: 100%;
+            text-align: center;
+            font-size: 1.2rem;
+            color: #3e3a39;
+        }
+
+        .home-row1-slide-button-div{
+            width: 7.5%;
+        }
+
+
+        .home-card-row5-video-image{
+            width: 90%;
+            margin-top: 1rem;
+        }
+
+        .home-background{
+            width: 100%;
+            height: 90%;
+        }
+
+        .font-margin-top{
+            margin-top: 0.5rem;
+        }
+
+         .contact-pay-HTML {
+            font-size: 1.7rem;
+        }
+}
+
+        @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+
+        .tag-inner-option{
+            height: 100%;
+            width: 88%;
+        }
+
+        .tag-inner-cancel{
+            height: 100%;
+            width: 12%;
+            margin-left: 0rem;
+        }
+        
+        .tag-cover-div{
+            background-color: transparent;
+            width: 80%;
+            height: 18%;
+            margin-top: 2rem;
+            margin-left: 0rem;
+            font-size: 1.2rem;
+            color: #5f5e5e;
+        }
+        
+        .tag-inner-split-vertical{
+            width: 5.8rem;
+            height: 1.8rem;
+            margin-top: 0.9rem;
+            margin-left:1rem;
+            border: 1px solid #a7a7a8;
+        }
+
+        .home-card-row4-content {
+            height: 32px;
+        }
+
+        .home-card-row2-col2-row2 {
+            padding-top: 0.5rem;
+            font-size: 1.4rem;
+        }
+
+
+        .home-card-row3-content-more {
+            height: 1.4rem;
+            margin-bottom: 0.2rem;
+        }
+
+        .home-background {
+            background-color: #EFEFEF;
+            z-index: 0;
+            text-align: center;
+            width: 100%;
+            height: 100%;
+        }
+
+        .home-row1-slide-button-div {
+            width: 29px;
+        }
+
+        .card-cover-div {
+            width: 34.8rem;
+            height: 35.3rem;
+        }
+
+        .home-card-HTML {
+            height: auto;
+            width: 317px;
+            padding-bottom: 1.5rem;
+        }
+
+        .home-card-row3 {
+            width: 100%;
+            height: 40px;
+            padding-top: 0.3rem;
+        }
+
+        .home-card-row5-video-image {
+            width: 92%;
+            height: auto;
+            margin-top: 1rem;
+        }
+
+        .bc-contact-pay-row2-content {
+            width: 34.8rem;
+            height:5.8rem;
+        }
+
+        .home-row2 {
+            margin-top: 5.5rem;
+            height: 5.8rem;
+            background-color: #EFEFEF;
+        }
+
+        .bc-contact-pay-row2-col1 {
+            height: 100%;
+            width: 9.8rem;
+        }
+
+        .bc-contact-pay-row2-col2 {
+            height: 100%;
+            width: 9.8rem;
+            margin-left: 1.5rem;
+        }
+
+        .bc-contact-pay-row2-col3 {
+            height: 100%;
+            width: 9.8rem;
+            margin-left: 1.5rem;
+        }
+
+        
+        
+        .talkbubble {
+            background: white;
+            position: relative;
+            -moz-border-radius:    1rem;
+            -webkit-border-radius: 1rem;
+            border-radius:         1rem;
+        }
+
+        .talkbubble:before {
+            content:"";
+            position: absolute;
+            top: 100%;
+            left: 4rem;
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-top: 20px solid white;
+            border-right: 10px solid transparent;
+        }
+
+        .cardbubble:before {
+            left: 3.7rem;
+            border-left: 12px solid transparent;
+            border-top: 20px solid white;
+            border-right: 12px solid transparent;
+        }
+
+
+        .home-row1{
+            margin-top: 5rem;
+            height: 31.6rem;
+        }
+
+        .contact-info-HTML {
+            height: 35.3rem;
+            background-color: transparent;
+            width: 31.7rem; /*iphone 5*/
+            padding-bottom: 1.5rem;
+            padding-top: 1.5rem;
+            float: left;
+            position: relative;
+        }
+
+        .contact-pay-HTML{
+            height: 35.3rem;
+            width: 31.7rem;
+        }
+
+        .contact-info-row1 {
+            margin-top: 2.3rem;
+            height: 5rem;
+            width: 100%;
+        }
+
+        
+
+        .contact-info-row1-content {
+            width: 85%;
+            height: 50px;
+            display: flex;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            }
+
+        .contact-info-row1-col2-row1 {
+            height: 28px;
+            display: flex;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            align-items: flex-end;
+            -webkit-align-items: flex-end; /* Safari 7.0+ */
+        }
+
+        .contact-info-row1-col2-row1-name {
+            font-size: 23px;
+            font-weight: bolder;
+            color: #3e3a39;
+        }
+
+        .contact-info-row1-col2-row1-role {
+            font-size: 1.4rem;
+            padding-left: 1.3rem;
+            padding-bottom: 0.2rem;
+            color: #5f5e5e;
+        }
+
+        .contact-info-row1-col2-row2 {
+            padding-top: 0.6rem;
+            font-size: 1.5rem;
+            color: #5f5e5e;
+        }
+
+        .contact-info-row1-col2 {
+            margin-left: 1.4rem;
+            display: inline-block;
+        }
+
+        .contact-info-row2 {
+            width: 100%;
+            height: 4rem;
+            margin-top: 1.5rem;
+            padding-top: 0rem;
+        }
+
+        .contact-info-row2-content {
+            width: 85%;
+            height: 8rem;
+            margin: auto auto;
+            font-size: 14px;
+            color: #b3b5b6;
+        }
+
+        .contact-info-row2-content-dis {
+            width: 100%;
+            text-align: start;
+            font-size: 1.4rem;
+            color: #5f5e5e;
+            padding-bottom: 3rem;
+            border-bottom: 1px solid #EFEFEF;
+        }
+
+        .contact-pic{
+            width: 2.8rem;
+            height: auto;
+            margin-left: 1rem;
+        }
+
+        .contact-mar{
+            margin-top: 2rem;
+        }
+
+        .contact-info-row{
+            width: 100%;
+            height: 3rem;
+        }
+
+        .contact-info-pic{
+            height: 100%;
+            width :20%;
+        }
+
+        .line-left-margin{
+            font-size: 1.4rem;
+            width: 80%;
+            height: 100%;
+            margin-left: 1rem;
+            float: left;
+            display: inline-flex;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+        }
+
+        .contact-font{
+            margin-left:0;
+            color: #5f5e5e;
+        }
+
+        .contact-font-num{
+            margin-left: 0.6rem;
+        }
+
+        .contact-info-cho{
+            float: left;
+        }
+
+        .contact-info-firstline{
+            margin-top: 4rem;
+        }
+
+        .contact-info-nation{
+            color: #5f5e5e;
+        }
+
+        .home-card-HTML{
+            position: absolute;
+        }
+
+        .home-card-row2 {
+            margin-top: 0.5rem;
+            height: 5rem;
+            width: 100%;
+        }
+
+
+        .home-card-row2-col2-row1-role{
+            font-size: 1.4rem;
+            padding-left: 1.3rem;
+            padding-bottom: 0.2rem;
+            color: #5f5e5e;
+        }
+
+        
+
+        .home-card-row3-content-dis {
+            width: 100%;
+            text-align: start;
+            font-size: 1.4rem;
+            color: #5f5e5e;
+        }
+
+        .home-card-row4-content-dis {
+            height: 20px;
+            width: 100%;
+            text-align: center;
+            font-size: 1.4rem;
+            color: #3e3a39;
+        }
+
+        .font-margin-top{
+            margin-top: 0.2rem;
+        }
+
+        .contact-pay-HTML {
+            font-size: 2rem;
+        }
+
+}
+
+        @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+
+        .tag-inner-option{
+            height: 100%;
+            width: 88%;
+        }
+
+        .tag-inner-cancel{
+            height: 100%;
+            width: 12%;
+            margin-left: 0rem;
+        }
+
+        .bubble-five {
+            background: #ebebeb;
+            position: relative;
+            -moz-border-radius: 0.5rem;
+            -webkit-border-radius: 0.5rem;
+            border-radius: 0.5rem; 
+        }
+
+        .tag-cover-div{
+            background-color: transparent;
+            width: 80%;
+            height: 21%;
+            margin-top: 3rem;
+            margin-left: 0.6rem;
+            font-size: 1.2rem;
+            color: #5f5e5e;
+        }
+
+        .tag-inner-split-vertical{
+            width: 6.5rem;
+            height: 2.1rem;
+            margin-top: 1.05rem;
+            margin-left:1rem;
+            border: 1px solid #a7a7a8;
+        }
+
+
+        .home-card-row2-col2-row2 {
+            padding-top: 0.5rem;
+            font-size: 1.4rem;
+        }
+
+        .home-card-row2 {
+            margin-top: 1.8rem;
+        }
+
+        .home-row1{
+            margin-top: 4rem;
+            height: 40rem;
+        }
+
+        .card-cover-div {
+            width: 34.8rem;
+            height: 40rem;
+        }
+
+        .home-card-HTML {
+            height: auto;
+            width: 34.8rem;
+        }
+
+        .contact-info-HTML {
+            height: 40rem;
+            width: 34.8rem;
+        }
+
+        .contact-pay-HTML{
+            height: 40rem;
+            width: 34.8rem;
+        }
+
+        .home-row2 {
+            margin-top: 4rem;
+            height: 6rem;
+        }
+
+        .bc-contact-pay-row2-content {
+            height: 6rem;
+        }
+
+        .bc-contact-pay-row2-col1 {
+            width: 11rem;
+        }
+
+        .bc-contact-pay-row2-col2 {
+            width: 11rem;
+        }
+
+        .bc-contact-pay-row2-col3 {
+            width: 11rem;
+        }
+
+        .home-card-row5-video-image {
+            margin-top: 1.5rem;
+        }
+
+        .contact-info-row1 {
+            margin-top: 5rem;
+        }
+
+        .contact-info-row1-content{
+            margin-left: 4.5rem;
+        }
+
+        .font-margin-top{
+            margin-top: 0.2rem;
+        }
+        
+
+        }
+
+    /*--------------------------外部样式------------------------------*/        
+
+        .slashcolor{
+            color: #a6a6a7;
+        }
+
+        .bubble-four {
+            background: #ebebeb;
+            position: relative;
+            -moz-border-radius:    0.4rem;
+            -webkit-border-radius: 0.4rem;
+            border-radius:         0.4rem;
+        }
+
+        .bubble-five {
+            background: #ebebeb;
+            position: relative;
+            -moz-border-radius:    0.5rem;
+            -webkit-border-radius: 0.5rem;
+            border-radius:         0.5rem;
+        }
+
+        /*.tag-cover-div{
+            background-color: transparent;
+            width: 80%;
+            height: 18%;
+            margin-top: 2rem;
+            font-size: 1.2rem;
+            color: #5f5e5e;
+        }*/
+
+        .inner-tag-HTML{
+            background-color: #ececec;
+            width: 100%;
+            height: 100%;
+        }
+
+        .tag-inner-content{
+            height: 100%;
+            width: 100%;
+        }
+
+
+        .tag-inner-split{
+            height: 100%;
+            width: 50%;
+        }
+
+        /*.tag-inner-split-vertical{
+            width: 5.8rem;
+            height: 1.8rem;
+            margin-top: 0.9rem;
+            margin-left:1rem;
+            border: 1px solid #a7a7a8;
+        }*/
+
+        .line-left-margin{
+            padding-top: 0rem;
+        }
+
+        .contact-info-HTML{
+            visibility: hidden;
+        }
+
+        .talkbubble:before {
+            visibility: hidden;
+        }
+
+        /*------------------------------------新增支付页面-----------------------------------------*/
+        .contact-pay-HTML {
+            background-color: transparent;
+            padding-top: 1.5rem;
+            float: left;
+            position: absolute;
+            visibility: hidden;
+        }
+
+        .contact-pay-blank{
+            width: 100%;
+            height: 30%;
+        }
+
+        .contact-pay-row1{
+            width: 100%;
+            height: 20%;   
+        }
+
+        .contact-pay-row2{
+            width: 100%;
+            height: 20%;
+        }
+
+        .contact-pay-row1-col2{
+            color: #207927;
+        }
+
+        .contact-pay-row2-col1{
+            color: #929393;
+            width: 35%;
+        }
+
+        .contact-pay-row2-col2{
+            color: #ce1442;
+            width: 35%;
+        }
+
+        .user-name{
+            display: -webkit-inline-box;
+        }

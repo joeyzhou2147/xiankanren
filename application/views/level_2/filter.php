@@ -8,7 +8,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 
 <head>
     <meta charset="utf-8">
@@ -164,7 +164,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="common-flex" style="">
                         <img class="filter-top-filter-image" src="<?php echo base_url("assets/images/filter.png"); ?>">
                     </div>
-                    <div class="filter-top-title-unchecked common-flex">筛选</div>
+                    <div class="filter-top-title-unchecked common-flex" style="padding-left: 1rem;">筛选</div>
                 </div>
             </div>
             <div class="common-flex font-xihei filter-top-filter">
@@ -325,7 +325,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 
 
-<footer class="footer1 icon-footer2 common-flex font-xihei">
+<footer class="footer1 icon-footer2 common-flex font-xihei footer-line" style="font-size: 1.8rem">
 
     <div class="filter-footer-div">
         <div class="filter-footer-row"></div>

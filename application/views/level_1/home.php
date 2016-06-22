@@ -27,6 +27,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!--Home page using level 1 index css-->
     <link href="<?php echo base_url("assets/css/L1/index.css"); ?>" rel="stylesheet">
     <link href="<?php echo base_url("assets/css/L2/home_my_card.css"); ?>" rel="stylesheet">
+    <link href="<?php echo base_url("assets/css/L1/home_only.css"); ?>" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <!--<link href="./assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">-->
@@ -41,104 +42,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         /* Custom page CSS
   -------------------------------------------------- */
         /* Not required for template or sticky footer method. */
-
-        body > .container {
-            padding: 60px 15px 0;
-        }
-
-        .container .text-muted {
-            margin: 20px 0;
-        }
-
-        code {
-            font-size: 80%;
-        }
-
-        /* ----------- filter end --------------*/
-
-        /*header start*/
-
-        .common-flex {
-            display: flex;
-            display: -webkit-box;
-            display: -moz-box;
-            display: -ms-flexbox;
-            display: -webkit-flex;
-            justify-content: center;
-            align-items: center;
-            -webkit-justify-content: center; /* Safari 6.1+ */
-            -webkit-align-items: center; /* Safari 7.0+ */
-        }
-
-        .bc-flex {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            display: -webkit-box;
-            display: -moz-box;
-            display: -ms-flexbox;
-            display: -webkit-flex; /* Safari */
-            -webkit-justify-content: center; /* Safari 6.1+ */
-            -webkit-align-items: center; /* Safari 7.0+ */
-        }
-
-        .common-block {
-            display: inline-block;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .bc-top-bar {
-            width: 100%;
-            height: 38px;
-        }
-
-        .font-xihei {
-            font-family: STXihei;
-        }
-
-        /* ----------- Nexus 5 and 6 ----------- */
-
-        @media screen and (min-width: 320px) and (max-width: 411px) and (min-height: 659px) {
-            .bc-container {
-                margin-top: 130px;
-            }
-
-            .bc-row-two {
-                margin-top: 40px;
-            }
-        }
-
-        @media screen and (min-width: 320px) and (max-width: 401px) and (min-height: 659px) {
-            .bc-container {
-                margin-top: 45px;
-            }
-
-            .bc-row-two {
-                margin-top: 0px;
-            }
-        }
-
-        /*i-6*/
-
-        @media screen and (min-width: 375px) and (min-height: 769px) {
-            .bc-container {
-                margin-top: 0px;
-            }
-        }
-
-        /* ----------- Nexus 5 and 6 ----------- */
-        /* ----------- iPhone 4 and 4S ----------- */
-
-        @media only screen and (min-width: 320px) {
-        }
-
-
-
-        /* ----------- edit start --------------*/
-
-        /*------------ edit end----------*/
-
 
     </style>
 
@@ -185,39 +88,39 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
 
             <div id="tag-cover-div" class="tag-cover-div bc-flex home-tag-position">
-                <div class="inner-tag-HTML">
+                <div class="inner-tag-HTML bubble-five">
                     <div class="tag-inner-content bc-flex">
-                        <div class="tag-inner-co greybubble bc-flex">
+    
                             <div class="tag-inner-option bc-flex">
                                 <div class="tag-inner-split bc-flex">
                                     <div class="tag-inner-split">
-                                        <div class="tag-inner-split-vertical bc-flex">
+                                        <div class="tag-inner-split-vertical bubble-four bc-flex">
                                             <div class="tag-inner-split-smoption greybubble bc-flex"><font
                                                     class="option-font">金融</font>
                                             </div>
                                         </div>
-                                        <div class="tag-inner-split-vertical bc-flex">
+                                        <div class="tag-inner-split-vertical bubble-four bc-flex">
                                             <div class="tag-inner-split-smoption greybubble bc-flex"><font
                                                     class="option-font">人工智能</font></div>
                                         </div>
-                                        <div class="tag-inner-split-vertical bc-flex">
+                                        <div class="tag-inner-split-vertical bubble-four bc-flex">
                                             <div class="tag-inner-split-smoption greybubble bc-flex"><font
                                                     class="option-font">旅游</font>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="tag-inner-split">
-                                        <div class="tag-inner-split-vertical bc-flex">
+                                        <div class="tag-inner-split-vertical bubble-four bc-flex">
                                             <div class="tag-inner-split-smoption greybubble bc-flex"><font
                                                     class="option-font">A
                                                     轮</font></div>
                                         </div>
-                                        <div class="tag-inner-split-vertical bc-flex">
+                                        <div class="tag-inner-split-vertical bubble-four bc-flex">
                                             <div class="tag-inner-split-smoption greybubble bc-flex"><font
                                                     class="option-font">教育</font>
                                             </div>
                                         </div>
-                                        <div class="tag-inner-split-vertical bc-flex">
+                                        <div class="tag-inner-split-vertical bubble-four bc-flex">
                                             <div class="tag-inner-split-smoption greybubble bc-flex"><font
                                                     class="option-font">娱乐</font>
                                             </div>
@@ -226,32 +129,32 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 </div>
                                 <div class="tag-inner-split bc-flex">
                                     <div class="tag-inner-split">
-                                        <div class="tag-inner-split-vertical bc-flex">
+                                        <div class="tag-inner-split-vertical bubble-four bc-flex">
                                             <div class="tag-inner-split-smoption greybubble bc-flex"><font
                                                     class="option-font">自定义</font></div>
                                         </div>
-                                        <div class="tag-inner-split-vertical bc-flex">
+                                        <div class="tag-inner-split-vertical bubble-four bc-flex">
                                             <div class="tag-inner-split-smoption greybubble bc-flex"><font
                                                     class="option-font">医疗健康</font></div>
                                         </div>
-                                        <div class="tag-inner-split-vertical bc-flex">
+                                        <div class="tag-inner-split-vertical bubble-four bc-flex">
                                             <div class="tag-inner-split-smoption greybubble bc-flex"><font
                                                     class="option-font">房产</font>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="tag-inner-split">
-                                        <div class="tag-inner-split-vertical bc-flex">
+                                        <div class="tag-inner-split-vertical bubble-four bc-flex">
                                             <div class="tag-inner-split-smoption greybubble bc-flex"><font
                                                     class="option-font">电商</font>
                                             </div>
                                         </div>
-                                        <div class="tag-inner-split-vertical bc-flex">
+                                        <div class="tag-inner-split-vertical bubble-four bc-flex">
                                             <div class="tag-inner-split-smoption greybubble bc-flex"><font
                                                     class="option-font">金融</font>
                                             </div>
                                         </div>
-                                        <div class="tag-inner-split-vertical bc-flex">
+                                        <div class="tag-inner-split-vertical bubble-four bc-flex">
                                             <div class="tag-inner-split-smoption greybubble bc-flex"><font
                                                     class="option-font">社交</font>
                                             </div>
@@ -264,16 +167,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <img src="<?php echo base_url('assets/images/cancel_tag.png'); ?>" height="18px"
                                      width="auto"/>
                             </div>
-                        </div>
+                        
                     </div>
 
 
                 </div>
             </div>
-            <div id="card-cover-div" class="card-cover-div bc-flex" style="visibility: ;">
-                <div class="home-card-HTML">
-                    <div class="home-card-row1">
-                    </div>
+
+
+
+            <div id="card-cover-div" class="card-cover-div talkbubble">
+                
+                <div class="home-card-HTML" id="home-card-HTML">
 
                     <div class="home-card-row2 bc-flex">
                         <div class="home-card-row2-content">
@@ -281,7 +186,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="home-card-row2-col1 bc-flex">
                                 <div class="bc-flex">
                                     <img src="<?php echo base_url('assets/images/default_person1.png'); ?>" width="auto"
-                                         height="50px"/>
+                                         height="55px"/>
                                 </div>
                             </div>
 
@@ -300,7 +205,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                     <div class="home-card-row3">
                         <div class="home-card-row3-content bc-flex">
-                            <div class="home-card-row3-content-dis" style="float:left;">医疗健康 / Pre-A轮 / 一起创业 / 智能硬件 、sss
+                            <div class="home-card-row3-content-dis">
+                                <div class="contact-info-cho"><font>医疗健康</font><font class="slashcolor">&nbsp;/&nbsp;</font></div>
+                                <div class="contact-info-cho"><font>Pre-A 轮</font><font class="slashcolor">&nbsp;/&nbsp;</font></div>
+                                <div class="contact-info-cho"><font>一起创业</font><font class="slashcolor">&nbsp;/&nbsp;</font></div>
+                                <div class="contact-info-cho"><font>O2O</font></div>
                             </div>
                             <div onclick="showContact('','tag-cover-div')">
                                 <img class="home-card-row3-content-more"
@@ -311,7 +220,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                     <div class="home-card-row4">
                         <div class="home-card-row4-content bc-flex">
-                            <div class="home-card-row4-content-dis" style="float:left;">让投资人先看到你的脸，让创业者看到你的脸 ...
+                            <div class="home-card-row4-content-dis" style="float:left;">让投资人先看到你的脸，让创业者看到你的脸
                             </div>
                         </div>
                     </div>
@@ -321,10 +230,80 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                              src="<?php echo base_url('assets/images/home_default_video.jpg'); ?>"/>
                     </div>
 
+                </div>
+
+
+
+
+                <div class="contact-info-HTML cardbubble" id="contact-info-HTML">
+
+                    <div class="contact-info-row1 bc-flex">
+                        <div class="contact-info-row1-content">
+                            <div class="contact-info-row1-col1 bc-flex">
+                                <div class="bc-flex">
+                                    <img src="<?php echo base_url('assets/images/default_person1.png'); ?>" width="auto"
+                                         height="55px"/>
+                                </div>
+                            </div>
+
+                            <div class="contact-info-row1-col2">
+                                <div class="contact-info-row1-col2-row1">
+                                    <div class="contact-info-row1-col2-row1-name">牛肉哥</div>
+                                    <div class="contact-info-row1-col2-row1-role">创始人</div>
+                                </div>
+                                <div class="contact-info-row1-col2-row2">
+                                    <div>先看人网络科技有限公司</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="contact-info-row2">
+                        <div class="contact-info-row2-content">
+                            <div class="contact-info-row2-content-dis bc-flex">
+                                <div class="contact-info-cho"><font>医疗健康</font><font class="slashcolor">&nbsp;/&nbsp;</font></div>
+                                <div class="contact-info-cho"><font>Pre-A 轮</font><font class="slashcolor">&nbsp;/&nbsp;</font></div>
+                                <div class="contact-info-cho"><font>一起创业</font><font class="slashcolor">&nbsp;/&nbsp;</font></div>
+                                <div class="contact-info-cho"><font>O2O</font></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="contact-info-row bc-flex contact-info-firstline">
+                        <div class="contact-info-pic"><img class="contact-pic" src="<?php echo base_url('assets/images/contact_phone.png'); ?>"/></div>
+                        <div class="line-left-margin font-margin-top"><div class="contact-info-nation">+86</div> <div class="contact-font contact-font-num">13003030999</div> </div>
+                    </div>
+                    
+                    <div class="contact-info-row bc-flex contact-mar">
+                        <div class="contact-info-pic"><img class="contact-pic" src="<?php echo base_url('assets/images/contact_wechat.png'); ?>"/></div>
+                        <div class="line-left-margin"> <font class="contact-font">niurouge299</font> </div>
+                    </div>
+
+                    <div class="contact-info-row bc-flex contact-mar">
+                        <div class="contact-info-pic"><img class="contact-pic" src="<?php echo base_url('assets/images/contact_email.png'); ?>"/></div>
+                        <div class="line-left-margin"> <font class="contact-font">xingmingxingming@business.com</font> </div>
+                    </div>
 
                 </div>
 
+
+                <div class="contact-pay-HTML cardbubble" id="contact-pay-HTML"> 
+                    <div class="contact-pay-blank"></div>
+                    <div class="contact-pay-row1 bc-flex">
+                        <div>确定获取<div class="user-name">泽宇</div>的联系方式吗?</div>
+                    </div>
+                    <div class="contact-pay-row2 bc-flex">
+                        <div class="contact-pay-row2-col1 bc-flex" onclick="toHomePage()">取消</div>
+                        <div class="contact-pay-row2-col2 bc-flex" onclick="toCardPage()">确定</div>
+                    </div>
+                    <div class="contact-pay-blank"></div>
+                </div>
+
             </div>
+
+            
 
             <div class="home-row1-slide-button-div"><img
                     src="<?php echo base_url('assets/images/home_right.png'); ?>" width="auto"
@@ -335,27 +314,27 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="home-row2 bc-flex">
             <div class="bc-contact-pay-row2-content bc-flex">
 
-                <div class="bc-contact-pay-row2-col1 bubble bc-flex">
+                <div class="bc-contact-pay-row2-col1 bubble bc-flex" onclick="showingDetail()">
                     <div class="bubble-insert">
                         <div class="bubble-insert-row1 bc-flex">
-                            <image class="bubble-insert-pic"
+                            <image class="bubble-insert-pic" id="contact-pic"
                                    src="<?php echo base_url('assets/images/contact01.png'); ?>"/>
-                            <div class="bc-contact-pay-row2-tit" color="#898a8a">联系</div>
+                            <div class="bc-contact-pay-row2-tit" id="bc-contact-pay-row2-tit-contact" color="#898a8a">联系</div>
                         </div>
                         <div class="bubble-insert-row2 bc-flex">
-                            <div color="#898a8a"> 3768人</div>
+                            <div color="#898a8a"><font id="contactnum">3768</font><font>人</font></div>
                         </div>
                     </div>
                 </div>
 
-                <div class="bc-contact-pay-row2-col2 bubble bc-flex">
+                <div class="bc-contact-pay-row2-col2 bubble bc-flex" onclick="storeaddone()">
                     <div class="bubble-insert">
                         <div class="bubble-insert-row1 bc-flex">
-                            <image class="bubble-insert-pic"
+                            <image class="bubble-insert-pic" id="bubble-insert-pic"
                                    src="<?php echo base_url('assets/images/collect01.png'); ?>"/>
                             <div class="bc-contact-pay-row2-tit" color="#ce1442">收藏</div>
                         </div>
-                        <div class="bubble-insert-row2 bc-flex" color="#898a8a"> 10000+人</div>
+                        <div class="bubble-insert-row2 bc-flex" color="#898a8a"> <font id="storenum">9990</font><font>人</font></div>
                     </div>
                 </div>
 
@@ -368,7 +347,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="bc-contact-pay-row2-tit" color="#898a8a">留言</div>
                         </div>
                         <div class="bubble-insert-row2 bc-flex">
-                            <div color="#898a8a">23条</div>
+                            <div color="#898a8a"><font id="commentnum">23</font><font>条</font></div>
                         </div>
                     </div>
                 </div>
@@ -415,6 +394,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </footer>
 
 <script>
+    window.onload = function() {
+        if(parseInt(document.getElementById('commentnum').innerHTML)>10000){
+            document.getElementById('commentnum').innerHTML='10000+';
+        }
+    }
+
     function toHref(url) {
         window.location.href = url;
     }
@@ -423,6 +408,92 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         document.getElementById(ctTwo).style.visibility = "visible";
         document.getElementById(ctOne).style.visibility = "hidden";
     }
+
+    // function contactaddone(){
+    //     $realip=getip();
+    //     $query="SELECT * FROM User where user_ip='"+$realip+";";
+    //     $result=mysql_query($query);
+    //     $row=mysql_fetch_row($result);
+    //     if(empty($row)){
+    //         if(parseInt(document.getElementById('contactnum').innerHTML)+1>10000){
+    //             document.getElementById('contactnum').innerHTML='1000+';
+    //         }else{
+    //             document.getElementById('contactnum').innerHTML=parseInt(document.getElementById('contactnum').innerHTML)+1;
+    //         }
+            
+    //     }
+    // }
+
+    var tag = 0;
+    function storeaddone(){
+        if (tag == 0) {
+              tag = 1;
+              document.getElementById('bubble-insert-pic').setAttribute('src', '<?php echo base_url('assets/images/collect02.png'); ?>');
+                if(parseInt(document.getElementById('storenum').innerHTML)+1>10000){
+                    document.getElementById('storenum').innerHTML='10000+';
+                }else{
+                    document.getElementById('storenum').innerHTML=parseInt(document.getElementById('storenum').innerHTML)+1;
+                }
+
+            }
+            else {
+              tag = 0;
+              document.getElementById('bubble-insert-pic').setAttribute('src', '<?php echo base_url('assets/images/collect01.png'); ?>');
+            }   
+    }
+
+        var home = 0;    //------------------0表示页面可见,1表示页面不可见
+        var card = 1;
+        var pay = 1;
+        function showingDetail() {          
+            if ( home==0 ) {
+                //在home页面，点击联系按钮，出现确认联系页面
+                home = 1;
+                pay = 0;
+                card = 1;
+                document.getElementById('contact-info-HTML').style.visibility = "hidden";
+                document.getElementById('home-card-HTML').style.visibility = "hidden";
+                document.getElementById('contact-pay-HTML').style.visibility = "visible";
+            }else if( pay==0 ) {
+                //在确认联系页面，点击联系按钮，出现home页面
+                pay = 1;
+                card = 1;
+                home = 0;
+                document.getElementById('contact-info-HTML').style.visibility = "hidden";
+                document.getElementById('contact-pay-HTML').style.visibility = "hidden";
+                document.getElementById('home-card-HTML').style.visibility = "visible";
+            }else if( card==0 )  {
+                //在信息卡片页面，点击联系按钮，出现home页面
+                card = 1;
+                home = 0;
+                pay = 1;
+                document.getElementById('contact-pay-HTML').style.visibility = "hidden";
+                document.getElementById('contact-info-HTML').style.visibility = "hidden";
+                document.getElementById('home-card-HTML').style.visibility = "visible";
+            }         
+        }
+
+        function toHomePage(){
+            document.getElementById('contact-pay-HTML').style.visibility = "hidden";
+            document.getElementById('home-card-HTML').style.visibility = "visible";
+            document.getElementById('contact-info-HTML').style.visibility = "hidden";
+        }
+
+        function toCardPage(){
+            document.getElementById('contact-pay-HTML').style.visibility = "hidden";
+            document.getElementById('contact-info-HTML').style.visibility = "visible";
+            document.getElementById('home-card-HTML').style.visibility = "hidden";
+            document.getElementById('contact-pic').setAttribute('src', '<?php echo base_url('assets/images/contact02.png'); ?>');
+            document.getElementById('bc-contact-pay-row2-tit-contact').style.color = '#ce1442';
+            if(parseInt(document.getElementById('contactnum').innerHTML)+1>10000){
+                document.getElementById('contactnum').innerHTML='10000+';
+            }else{
+                document.getElementById('contactnum').innerHTML=parseInt(document.getElementById('contactnum').innerHTML)+1;
+            }
+        }
+
+   
+
 </script>
 
 <!-- Placed at the end of the document so the pages load faster -->
