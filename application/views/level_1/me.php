@@ -53,7 +53,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="me-3div-background">
 
         <div id="card-cover-div" class="me-3div-row1 greybubble2" style="visibility: visible; position: absolute">
-            <div class="content-part whitebubble-bottom-left">
+            <div class="content-part whitebubble-bottom-left" style="border-bottom-right-radius: 1rem;">
 
                 <div id="tag-cover-div" class="tag-cover-div bc-flex">
                     <div class="inner-tag-HTML" style="">
@@ -230,7 +230,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div id="notify-cover-div" class="me-3div-row1 greybubble2" style="visibility: hidden; position: relative">
 
-            <div class="content-part whitebubble-bottom-left">
+            <div class="content-part whitebubble-bottom-left" style="border-bottom-left-radius: 1rem;">
 
                 <div class="notify-cover-div" style="height:100%;">
 

@@ -157,6 +157,20 @@ body {
     cursor: pointer;
     width: 200px;
     height: 50px;
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; /* Safari */
+
+    justify-content: center;
+    -webkit-justify-content: center; /* Safari 6.1+ */
+
+    align-items: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center; /* Safari 7.0+ */
 }
 
 .filter-footer-row {
@@ -227,4 +241,9 @@ body {
 
 .footer-line {
     border-top: 1px solid rgb(244, 203, 215);
+}
+
+.tag-padding {
+    padding-left: 1rem;
+    style = "font-size: 1.9rem
 }

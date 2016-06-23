@@ -54,17 +54,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             -ms-flex-align: center;
             -webkit-align-items: center; /* Safari 7.0+ */
         }
-
-        .font-1 {
-            font-size: 2.3rem;
-            color: black;
-            font-weight: bold;
-        }
-
-        .font-2 {
-            font-size: 13px;
-            color: rgba(red, green, blue, alpha)
-        }
+        
 
         /*---------- header start ------------*/
 
@@ -91,19 +81,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             display: -webkit-flex; /* Safari */
         }
 
-        .cl-col1 {
-            width: 80%;
-            display: block;
-            justify-content: center;
-            -webkit-justify-content: center; /* Safari 6.1+ */
-
-            align-items: center;
-            -webkit-box-align: center; -moz-box-align: center;
-            -ms-flex-align: center;
-            -webkit-align-items: center; /* Safari 7.0+ */
-            z-index: 1;
-        }
-
         /*----------------- contanienr_cl-contact-bubble start -----------------*/
 
         .cl2 {
@@ -128,28 +105,222 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             visibility: hidden;
         }
 
-        .cl-contact-bubble {
-            width: 23.5rem;
-            height: 9.7rem;
-            background: white;
-            position: relative;
+        .people-ellipsis-button {
             display: block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            text-align: left;
         }
+
+        .people-ellipsis-button2 {
+            text-align: left;
+            word-break:break-all;
+            word-wrap: break-word;
+        }
+
+
+
+        /* ----------- iPhone 5 and 5S 开始----------- */
+        /* Portrait and Landscape */
+
+        @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+
+            .cl-contact-bubble {
+                width: 23.5rem;
+                height: 9.7rem;
+                background: white;
+                position: relative;
+                display: block;
+            }
+
+            .font-1 {
+                font-size: 2.1rem;
+                color: #3e3a39;
+                font-weight: bold;
+            }
+
+            .font-2 {
+                font-size: 13px;
+                color: #727171;
+            }
+
+            .ph-row1 {
+                width: 100%;
+                margin-bottom: 0.5rem;
+                height: 4.3rem;
+                display: flex;
+                align-items: flex-end;
+                -webkit-align-items: flex-end; /* Safari 7.0+ */
+                font-size: 15px;
+                color: #3e3a39;
+                padding-top: 3.3rem;
+            }
+
+            .cl-phone{
+                height: 4rem;
+                width: 3.8063rem;
+            }
+
+            .cl-col1 {
+                width: 80%;
+                display: block;
+                justify-content: center;
+                -webkit-justify-content: center; /* Safari 6.1+ */
+
+                align-items: center;
+                -webkit-box-align: center; -moz-box-align: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center; /* Safari 7.0+ */
+                z-index: 1;
+            }
+
+            .cl-col4 {
+                width: 20%;
+                z-index: 1;
+                margin-right: 3px;
+            }
+
+            .cl-role {
+                width: 5.5rem;
+                border: 1px #b4b4b5 solid;
+                border-radius: 0.4rem;
+                font-size: 13px;
+                color: #727171;
+            }
+
+            .contact-row2 {
+                margin: 0.5rem 0rem 0.5rem 1.7rem;
+                display: flex;
+                display: -webkit-box; display: -moz-box;
+                display: -ms-flexbox;
+                display: -webkit-flex; /* Safari */
+                color: #3e3a39;
+            }
+
+            .font-3 {
+                font-size: 15px;
+                color: #727171;
+            }
+
+            .cl-photo-image{
+                height: 5rem;
+            }
+
+            .contact-row1 {
+                margin-left: 1.7rem;
+                display: flex;
+                display: -webkit-box; display: -moz-box;
+                display: -ms-flexbox;
+                display: -webkit-flex; /* Safari */
+                padding-top: 0.3rem;
+                align-items: flex-end;
+                color: #3e3a39;
+            }
+
+
+
+        }
+
+        /* ----------- iPhone 5 and 5S 结束----------- */
 
         /* ----------- iPhone 6 开始----------- */
         /* Portrait and Landscape */
 
         @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
             .cl-contact-bubble {
-                width: 28.5rem;
+                width: 27.5rem;
                 height: 9.7rem;
                 background: white;
                 position: relative;
                 display: block;
             }
+
+            .font-1 {
+                font-size: 2.3rem;
+                color: #3e3a39;
+                font-weight: bold;
+            }
+
+            .font-2 {
+                font-size: 14px;
+                color: #727171;
+            }
+
+            .font-3 {
+                font-size: 14px;
+                color: #727171;
+            }
+
+            .ph-row1 {
+                width: 100%;
+                margin-bottom: 0.5rem;
+                height: 4.3rem;
+                display: flex;
+                align-items: flex-end;
+                -webkit-align-items: flex-end; /* Safari 7.0+ */
+                font-size: 17px;
+                color: #3e3a39;
+            }
+
+            .cl-phone{
+                height: 5rem;
+                width: auto;
+            }
+
+            .cl-col1 {
+                width: 87%;
+                display: block;
+                justify-content: center;
+                -webkit-justify-content: center; /* Safari 6.1+ */
+
+                align-items: center;
+                -webkit-box-align: center; -moz-box-align: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center; /* Safari 7.0+ */
+                z-index: 1;
+            }
+
+            .cl-col4 {
+                width: 20%;
+                z-index: 1;
+                padding-left: 1rem;
+            }
+
+            .cl-role {
+                width: 6rem;
+                border: 1px #b4b4b5 solid;
+                border-radius: 0.4rem;
+                font-size: 13px;
+                color: #727171;
+            }
+
+            .contact-row2 {
+                margin: 0.9rem 0rem 0.9rem 1.7rem;
+                display: flex;
+                display: -webkit-box; display: -moz-box;
+                display: -ms-flexbox;
+                display: -webkit-flex; /* Safari */
+                color: #3e3a39;
+            }
+
+            .cl-photo-image{
+                height: 5.167rem;
+            }
+
+            .contact-row1 {
+                margin-left: 1.7rem;
+                display: flex;
+                display: -webkit-box; display: -moz-box;
+                display: -ms-flexbox;
+                display: -webkit-flex; /* Safari */
+                padding-top: 0.9rem;
+                align-items: flex-end;
+                color: #3e3a39;
+            }
         }
 
-
+        
         /* ----------- iPhone 6 结束----------- */
 
         /* ----------- iPhone 6+ 开始----------- */
@@ -157,12 +328,96 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
             .cl-contact-bubble {
-                width: 28.5rem;
+                width: 30rem;
                 height: 9.7rem;
                 background: white;
                 position: relative;
                 display: block;
             }
+
+            .font-1 {
+                font-size: 2.3rem;
+                color: #3e3a39;
+                font-weight: bold;
+            }
+
+            .font-2 {
+                font-size: 14px;
+                color: #727171;
+            }
+
+            .ph-row1 {
+                width: 100%;
+                margin-bottom: 0.5rem;
+                height: 4.3rem;
+                display: flex;
+                align-items: flex-end;
+                -webkit-align-items: flex-end; /* Safari 7.0+ */
+                font-size: 17px;
+                color: #3e3a39;
+            }
+
+            .cl-phone{
+                height: 5rem;
+                width: auto;
+            }
+
+            .cl-col1 {
+                width: 87%;
+                display: block;
+                justify-content: center;
+                -webkit-justify-content: center; /* Safari 6.1+ */
+
+                align-items: center;
+                -webkit-box-align: center; -moz-box-align: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center; /* Safari 7.0+ */
+                z-index: 1;
+            }
+
+            .cl-col4 {
+                width: 20%;
+                z-index: 1;
+                padding-left: 1rem;
+            }
+
+            .cl-role {
+                width: 6rem;
+                border: 1px #b4b4b5 solid;
+                border-radius: 0.4rem;
+                font-size: 13px;
+                color: #727171;
+            }
+
+            .contact-row2 {
+                margin: 0.9rem 0rem 0.9rem 1.7rem;
+                display: flex;
+                display: -webkit-box; display: -moz-box;
+                display: -ms-flexbox;
+                display: -webkit-flex; /* Safari */
+                color: #3e3a39;
+            }
+
+            .font-3 {
+                font-size: 14px;
+                color: #727171;
+            }
+
+            .cl-photo-image{
+                height: 5.167rem;
+            }
+
+            .contact-row1 {
+                margin-left: 1.7rem;
+                display: flex;
+                display: -webkit-box; display: -moz-box;
+                display: -ms-flexbox;
+                display: -webkit-flex; /* Safari */
+                padding-top: 0.9rem;
+                align-items: flex-end;
+                color: #3e3a39;
+            }
+
         }
 
         /* ----------- iPhone 6+ 结束----------- */
@@ -190,21 +445,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             -webkit-align-items: center; /* Safari 7.0+ */
         }
 
-        .cl-col4 {
-            width: 20%;
-            z-index: 1;
-        }
-
         /*----------------- container_cl-contact-bubble end -----------------*/
 
         .cl-col2 {
             width: 20%;
             z-index: 1;
         }
-        .cl-phone{
-            height: 5rem;
-            width: auto;
-        }
+
         .cl-col1-row1 {
             height: 5.9rem;
             display: flex;
@@ -223,10 +470,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         }
 
         .cl-photo {
-            width: 25%;
-        }
-        .cl-photo-image{
-            height: 4.167rem;
+            width: 30%;
         }
 
         .cl-box {
@@ -250,18 +494,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             display: -webkit-flex; /* Safari */
             height: 1.8rem;
             align-items: center;
+            -webkit-box-align: center;
+            -moz-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center; /* Safari 7.0+ */
             justify-content: flex-start;
             -webkit-justify-content: flex-start;
+            padding-bottom: 0.2rem;
         }
 
         .cl-role-div {
-            width: 25%;
-        }
-
-        .cl-role {
-            width: 5rem;
-            border: 1px #b4b4b5 solid;
-            border-radius: 0.4rem;
+            width: 30%;
         }
 
         .cl-tag {
@@ -299,7 +542,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             justify-content: flex-start;
             -webkit-justify-content: flex-start;
             width: 70%;
-            padding-left: 1rem;
+            padding-left: 0.8rem;
+            padding-bottom: 0.1rem;
+
         }
 
         /*--------------- container end --------------*/
@@ -389,18 +634,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         /* ----------- 点击电话后的CSS 开始 --------------*/
 
-        .ph-row1 {
-            width: 100%;
-            margin-bottom: 1.9rem;
-            height: 4.3rem;
-            display: flex;
-            align-items: flex-end;
-            -webkit-align-items: flex-end; /* Safari 7.0+ */
-        }
 
         .ph-row2 {
             width: 100%;
-            height: 3.5rem;
+            height: 4rem;
         }
 
         .ph-cancel {
@@ -411,6 +648,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             justify-content: flex-end;
             -webkit-justify-content: flex-end; /* Safari 7.0+ */
             color: #b4b4b5;
+            font-size: 14px;
         }
 
         .ph-ok {
@@ -422,30 +660,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             display: -webkit-flex; /* Safari */
             align-items: flex-start;
             justify-content: flex-start;
-            color: #2ca93f;
+            color: #f10946;
+            font-size: 14px;
         }
 
         .image-contact-icon {
             width: 1.6rem;
             height: auto;
-        }
-
-        .contact-row1 {
-            margin-left: 1.7rem;
-            display: flex;
-            display: -webkit-box; display: -moz-box;
-            display: -ms-flexbox;
-            display: -webkit-flex; /* Safari */
-            padding-top: 0.9rem;
-            align-items: flex-end;
-        }
-
-        .contact-row2 {
-            margin: 0.9rem 0rem 0.9rem 1.7rem;
-            display: flex;
-            display: -webkit-box; display: -moz-box;
-            display: -ms-flexbox;
-            display: -webkit-flex; /* Safari */
         }
 
         .contact-row3 {
@@ -454,6 +675,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             display: -webkit-box; display: -moz-box;
             display: -ms-flexbox;
             display: -webkit-flex; /* Safari */
+            color: #3e3a39;
         }
 
         /*------------ 点击电话后的CSS 结束 ---------*/
@@ -503,7 +725,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div>
                             <img class="image-contact-icon" src="<?php echo base_url("assets/images/contact_wechat.png"); ?>">
                         </div>
-                        <div style="margin-left: 0.5rem;">
+                        <div style="margin-left: 1rem;">
                             niurouge22999
                         </div>
                     </div>
@@ -511,7 +733,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div>
                             <img class="image-contact-icon" src="<?php echo base_url("assets/images/contact_phone.png"); ?>">
                         </div>
-                        <div style="margin-left: 0.5rem;" class="common-flex">
+                        <div style="margin-left: 1rem;" class="common-flex">
                             <div style="color: #b4b4b5; margin-right: 3px">
                                 +86
                             </div>
@@ -524,7 +746,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div>
                             <img class="image-contact-icon" src="<?php echo base_url("assets/images/contact_email.png"); ?>">
                         </div>
-                        <div style="margin-left: 0.5rem;">
+                        <div class="people-ellipsis-button2" style="margin-left: 1rem;padding-right: 1rem;">
                             xingmingxingming@business.com
                         </div>
                     </div>
@@ -540,7 +762,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
             <div class="cl-col4 common-flex" onclick="showContact('contact001-03','contact001-01')">
                 <!--01hide 02show -->
-                <img class="cl-phone" src="<?php echo base_url("assets/images/contact03.png"); ?>">
+                <img class="cl-phone" src="<?php echo base_url("assets/images/contact04.png"); ?>">
             </div>
 
         </div>
@@ -550,10 +772,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="cl-contact-bubble">
                     <div class="ph-row1 common-flex">
                         <div class="font-xihei">
-                            联系牛肉哥，请支付
+                            确定获取
                         </div>
-                        <div class="font-xihei" style="color: #2ca93f;">
-                            ￥0.01
+                        <div id="" class="font-xihei">
+                            郑泽宇
+                        </div>
+                        <div class="font-xihei">
+                            的联系方式吗？
                         </div>
                     </div>
 
@@ -575,7 +800,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
             <div class="cl-col4 common-flex" onclick="showContact('contact001-02','contact001-01')">
                 <!--01hide 02show -->
-                <img class="cl-phone" src="<?php echo base_url("assets/images/contact03.png"); ?>">
+                <img class="cl-phone" src="<?php echo base_url("assets/images/contact04.png"); ?>">
             </div>
 
         </div>
@@ -592,12 +817,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="cl-name font-1">
                                 牛肉哥
                             </div>
-                            <div class="cl-position font-2">
+                            <div class="cl-position font-3">
                                 创始人
                             </div>
                         </div>
 
-                        <div class="cl-company font-2">
+                        <div class="cl-company font-3 people-ellipsis-button">
                             先看人技术网络科技有限公司
                         </div>
                     </div>
@@ -608,8 +833,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="cl-role-div common-flex">
                         <div class="cl-role common-flex">创业者</div>
                     </div>
-                    <div class="cl-tag font-2">
-                        医疗健康 / A 轮 / 自定义 / 金融 ...
+                    <div class="cl-tag font-2 people-ellipsis-button">
+                        医疗健康 / A 轮 / 自定义 / 金融 / 科技
                     </div>
                 </div>
             </div>

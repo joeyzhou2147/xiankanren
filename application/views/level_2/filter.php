@@ -131,12 +131,80 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
         }
 
+        /* ----------- iPhone 5 and 5S 开始----------- */
+        /* Portrait and Landscape */
 
-        .filter-tag3 {
+        @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+            .font-style2 {
+                font-size: 14px;
+                color: #727171;
+            }
+
+            .font-style1 {
+                font-size: 20px;
+                padding-left: 6px;
+                color: #D92D53;
+                align-items: flex-end;
+                justify-content: flex-start;
+                padding-bottom: 3px;
+                width: 100%;
+            }
+
+        }
+
+        /* ----------- iPhone 5 and 5S 结束----------- */
+
+        /* ----------- iPhone 6 开始----------- */
+        /* Portrait and Landscape */
+
+        @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+            .font-style2 {
+                font-size: 16px;
+                color: #727171;
+            }
+
+            .font-style1 {
+                font-size: 20px;
+                padding-left: 18px;
+                color: #D92D53;
+                align-items: flex-end;
+                justify-content: flex-start;
+                padding-bottom: 3px;
+                width: 100%;
+            }
+
+        }
+
+        /* ----------- iPhone 6 结束----------- */
+
+        /* ----------- iPhone 6+ 开始----------- */
+        /* Portrait and Landscape */
+
+        @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+            .font-style2 {
+                font-size: 16px;
+                color: #727171;
+            }
+
+            .font-style1 {
+                font-size: 20px;
+                padding-left: 18px;
+                color: #D92D53;
+                align-items: flex-end;
+                justify-content: flex-start;
+                padding-bottom: 3px;
+                width: 100%;
+            }
+
+        }
+
+        /* ----------- iPhone 6+ 结束----------- */
+
+
+            .filter-tag3 {
             border: 1px solid #d82d53;
             border-radius: 4px;
-            width: 75px;
-            height: 21px;
+            width: 20.605%;
             margin-right: 6px;
             margin-left: 6px;
             display: inline-block;
@@ -144,6 +212,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             text-align: center;
             margin-top: 11px;
             background-color: #d82d53 ;
+        }
+
+        .filter-container3 {
+            background-color: #ffffff;
+            margin: 0px 1.34% 4% 1.34%;
+            padding-bottom: 3.67%;
+            padding-top: 2.67%;
+            width: 97.07%;
+            display: block;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .filter-container2 {
+            padding-top: 4%;
+            width: 100%;
+            height: 100%;
+            background-color: #EFEFEF;
+            margin-top: 3.8rem;
         }
     </style>
 
@@ -176,7 +263,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <!-- container -->
 <div class="font-xihei filter-container2">
-    <div class="filter-container3" style="height: 115px;">
+    <div class="filter-container3">
         <div class="bc-row-start font-style1 font-color1">
             阶段
         </div>
@@ -210,7 +297,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
     </div>
 
-    <div class="filter-container3" style="height: 83px">
+    <div class="filter-container3">
         <div class="bc-row-start font-style1 font-color1">
             资金需求
         </div>
@@ -230,7 +317,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
     </div>
 
-    <div class="filter-container3" style="height: 249px;">
+    <div class="filter-container3">
         <div class="bc-row-start font-style1 font-color1">
             领域
         </div>

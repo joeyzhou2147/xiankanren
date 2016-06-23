@@ -432,16 +432,17 @@
 
 
         .home-card-row5-video-image{
-            width: 90%;
+            width: 92%;
+            height: 15rem;
             margin-top: 1rem;
         }
 
         .home-card-row5-video{
-            background: transparent url('../../../assets/images/poster/poster1.png') 50% 50% no-repeat;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
+            background: transparent url('../../../../xkr-poster/poster1.png') no-repeat 50% 50%;
+            background-size: 27rem auto;
+            -webkit-background-size: 25rem auto;
+            -moz-background-size: 25rem auto;
+            -o-background-size: 25rem auto;
         }
 
         .home-background{
@@ -459,6 +460,13 @@
 }
 
         @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+
+        .home-card-row5-video{
+            background-size: 29rem auto;
+            -webkit-background-size: 29rem auto;
+            -moz-background-size: 29rem auto;
+            -o-background-size: 29rem auto;
+        }
 
         .tag-inner-option{
             height: 100%;
@@ -522,8 +530,8 @@
         }
 
         .home-card-HTML {
-            height: auto;
-            width: 317px;
+            height: 100%;
+            width: 100%;
             padding-bottom: 1.5rem;
         }
 
@@ -535,8 +543,9 @@
 
         .home-card-row5-video-image {
             width: 92%;
-            height: auto;
+            height: 17.5rem;
             margin-top: 1rem;
+
         }
 
         .bc-contact-pay-row2-content {
@@ -795,6 +804,13 @@
 
         @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
 
+        .home-card-row5-video{
+            background-size: 32rem auto;
+            -webkit-background-size: 32rem auto;
+            -moz-background-size: 32rem auto;
+            -o-background-size: 32rem auto;
+        }
+
         .tag-inner-option{
             height: 100%;
             width: 88%;
@@ -889,6 +905,7 @@
         }
 
         .home-card-row5-video-image {
+            height: 19rem;
             margin-top: 1.5rem;
         }
 

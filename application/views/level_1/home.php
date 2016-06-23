@@ -240,9 +240,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <?php //echo base_url('assets/images/home_default_video.jpg'); ?><!--"/>-->
 
                         <div class="home-card-row5-video-image">
-                            <video class="home-card-row5-video" height="100%" width="100%"
-                                 id="player1" controls="controls" preload="auto">
-                                <source src="../../../../video/bp.MOV" type="video/mp4">
+                            <video class="home-card-row5-video" height="98%" width="100%"
+                                   id="player1" controls="controls" preload="auto">
+                                <source src="<?php echo base_url('../../xkr-video/bp.MOV'); ?>" type="video/mp4">
                             </video>
 
                         </div>
