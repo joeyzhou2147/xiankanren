@@ -45,15 +45,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             color: #727171;
         }
 
-
         /* ----------- filter end --------------*/
 
         /* w3 css start  */
-
-        .w3-theme-d2 {
-            color: #fff !important;
-            background-color: #e11a0c !important
-        }
 
         .w3-theme {
             /*color: #fff !important;
@@ -116,21 +110,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             width: 97.07%;
         }
 
-        .edit-empty-row {
-            height: 50px;
-        }
-
         /*------------ edit end----------*/
 
         /*---------- footer ------------*/
 
         .edit-tag-role {
-            height: 30px;
+            height: 4.8rem;
+            cursor: pointer;
             width: 100%;
         }
 
         .edit-upload {
-            height: 30px;
+            height: 8rem;
+            cursor: pointer;
             width: 100%;
         }
 
@@ -138,16 +130,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             border-right: 1px solid #808080;
             border-color: #efefef;
         }
-        .edit-footer-div{
-            width:100px;
-            height:50px;
-        }
-        .bc-laud-top-checked {
-            color: #D92D53;
-        }
 
-        .bc-laud-top-unchecked {
-            color: #ADADAD;
+        .edit-footer-div {
+            width: 100px;
+            height: 50px;
         }
 
         /*---------- footer end------------*/
@@ -178,7 +164,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         }
 
         .edit-company {
-            width:100%;
+            width: 100%;
             margin-left: 15px;
             margin-right: 15px;
         }
@@ -190,7 +176,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         }
 
         .edit-company-row2 {
-            border-bottom:1px solid #eeeeee;
+            border-bottom: 1px solid #eeeeee;
             width: 100%;
             display: flex;
             align-items: center;
@@ -218,7 +204,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         }
 
         .edit-detail {
-            width:100%;
+            width: 100%;
             margin-left: 15px;
             margin-right: 15px;
         }
@@ -230,7 +216,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         }
 
         .edit-detail-row2 {
-            border-bottom:1px solid #eeeeee;
+            border-bottom: 1px solid #eeeeee;
             width: 100%;
             display: flex;
             align-items: center;
@@ -258,7 +244,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         }
 
         .edit-name {
-            width:100%;
+            width: 100%;
             margin-left: 15px;
             margin-right: 15px;
         }
@@ -271,7 +257,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         }
 
         .edit-name-row2 {
-            border-bottom:1px solid #eeeeee;
+            border-bottom: 1px solid #eeeeee;
             width: 100%;
             justify-content: flex-start;
             -webkit-justify-content: flex-start;
@@ -284,7 +270,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         .edit-name-col2 {
             width: 20%;
             display: flex;
-            display: -webkit-box; display: -moz-box;
+            display: -webkit-box;
+            display: -moz-box;
             display: -ms-flexbox;
             display: -webkit-flex; /* Safari */
 
@@ -303,9 +290,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             -webkit-justify-content: flex-start;
         }
 
-
         .edit-role {
-            width:100%;
+            width: 100%;
             margin-left: 15px;
             margin-right: 15px;
         }
@@ -318,7 +304,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         }
 
         .edit-role-row2 {
-            border-bottom:1px solid #eeeeee;
+            border-bottom: 1px solid #eeeeee;
             width: 100%;
             display: flex;
             align-items: center;
@@ -332,7 +318,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         .edit-role-col2 {
             width: 20%;
             display: flex;
-            display: -webkit-box; display: -moz-box;
+            display: -webkit-box;
+            display: -moz-box;
             display: -ms-flexbox;
             display: -webkit-flex; /* Safari */
 
@@ -361,11 +348,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             align-items: center;
             justify-content: center;
             display: flex;
-            display: -webkit-box; display: -moz-box;
+            display: -webkit-box;
+            display: -moz-box;
             display: -ms-flexbox;
             display: -webkit-flex; /* Safari */
             -webkit-justify-content: center; /* Safari 6.1+ */
-            -webkit-box-align: center; -moz-box-align: center;
+            -webkit-box-align: center;
+            -moz-box-align: center;
             -ms-flex-align: center;
             -webkit-align-items: center; /* Safari 7.0+ */
         }
@@ -376,11 +365,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             align-items: center;
             justify-content: center;
             display: flex;
-            display: -webkit-box; display: -moz-box;
+            display: -webkit-box;
+            display: -moz-box;
             display: -ms-flexbox;
             display: -webkit-flex; /* Safari */
             -webkit-justify-content: center; /* Safari 6.1+ */
-            -webkit-box-align: center; -moz-box-align: center;
+            -webkit-box-align: center;
+            -moz-box-align: center;
             -ms-flex-align: center;
             -webkit-align-items: center; /* Safari 7.0+ */
         }
@@ -416,21 +407,44 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             /*margin-top: 10px;*/
             text-align: center;
             margin-top: 3.022%;
-            background-color: #d82d53 ;
+            background-color: #d82d53;
         }
 
         .display-flex {
             display: flex;
-            display: -webkit-box; display: -moz-box;
+            display: -webkit-box;
+            display: -moz-box;
             display: -ms-flexbox;
             display: -webkit-flex; /* Safari */
         }
 
         .tag-padding {
             padding-left: 1rem;
-            style="font-size: 1.9rem
+            style = "font-size: 1.9rem
         }
 
+        .hidden-input {
+            display: none;
+        }
+
+        .user_content_input {
+            border: hidden;
+            width: 100%;
+        }
+
+        .user_content_input::-webkit-input-placeholder {
+            color: inherit;
+        }
+
+        .user_content_input:-moz-placeholder {
+        }
+
+        .user_content_input::-moz-placeholder {
+        }
+
+        /* for the future */
+        .user_content_input:-ms-input-placeholder {
+        }
     </style>
 
 </head>
@@ -462,11 +476,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <!-- container -->
 <div class="font-xihei edit-container2">
     <div class="edit-container3 common-flex" style="height: 5rem;">
-        <div class="edit-tag-role edit-col-divider common-flex font-color1 font-style-tag">
-            我是投资人
+        <input id="user_type" type="checkbox" name="user_type" value="创业者" class="hidden-input">
+
+        <div id="user_type_tz" class="edit-tag-role edit-col-divider common-flex font-color1 font-style-tag"
+             onclick="userTypeChoose('user_type_tz', 'user_type_cy', '投资人');">我是投资人
         </div>
-        <div class="edit-tag-role common-flex font-style-tag" style="color: #d82d53">
-            我是创业者
+        <div id="user_type_cy" class="edit-tag-role common-flex font-style-tag" style="color: #d82d53"
+             onclick="userTypeChoose('user_type_cy', 'user_type_tz', '创业者');">我是创业者
         </div>
     </div>
 
@@ -488,14 +504,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="edit-container3 common-flex">
 
 
-        <div class="edit-tag-role edit-col-divider common-flex font-color1">
+        <div class="edit-tag-role edit-col-divider common-flex font-color1" id="user_name">
             <div class="edit-name common-block">
                 <div class="edit-name-row1 common-flex font-style-title">
                     姓名
                 </div>
                 <div class="edit-name-row2 common-flex font-color2">
                     <div class="edit-name-col1 font-style3">
-                        牛肉哥
+                        <input id="user_name_input" class="user_content_input" name="user_name" placeholder="牛肉哥">
                     </div>
                     <div class="edit-name-col2 font-style-title display-flex">
                         <div class="edit-name-col2-1 font-color3 display-flex">
@@ -509,14 +525,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
             </div>
         </div>
-        <div class="edit-tag-role common-flex font-color1">
+        <div class="edit-tag-role common-flex font-color1" id="user_role">
             <div class="edit-role common-block">
                 <div class="edit-role-row1 common-flex font-style-title">
                     职位
                 </div>
                 <div class="edit-role-row2 common-flex font-color2">
                     <div class="edit-role-col1  font-style3">
-                        创始合伙人
+                        <input id="user_role_input" class="user_content_input" name="user_role" placeholder="创始合伙人">
                     </div>
                     <div class="edit-role-col2 font-style-title display-flex">
                         <div class="edit-role-col2-1 font-color3 display-flex">
@@ -532,14 +548,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
     </div>
 
-    <div class="edit-container3 common-flex">
+    <div class="edit-container3 common-flex" id="user_company">
         <div class="edit-company common-block">
             <div class="edit-company-row1 common-flex font-color1 font-style-title">
                 项目/公司名称
             </div>
             <div class="edit-company-row2 common-flex font-color2">
                 <div class="edit-company-col1  font-style3">
-                    先看人网络科技技术有限公司
+                    <input id="user_company_input" class="user_content_input" name="user_company"
+                           placeholder="先看人网络科技技术有限公司">
                 </div>
                 <div class="edit-company-col2 font-style-title display-flex">
                     <div class="edit-company-col2-1 font-color3 display-flex">
@@ -554,14 +571,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
     </div>
 
-    <div class="edit-container3 common-flex">
+    <div class="edit-container3 common-flex" id="user_detail">
         <div class="edit-detail common-block">
             <div class="edit-detail-row1 common-flex font-color1 font-style-title">
                 为了投资人能够快速了解你的项目，请对其进行描述
             </div>
             <div class="edit-detail-row2 common-flex font-color2">
                 <div class="edit-detail-col1  font-style3">
-                    让投资人看到你的脸，也让创业者看到你的脸
+                    <input id="user_detail_input" class="user_content_input" name="user_detail"
+                           placeholder="让投资人看到你的脸，也让创业者看到你的脸">
                 </div>
                 <div class="edit-detail-col2 font-style-title display-flex">
                     <div class="edit-detail-col2-1 font-color3 display-flex">
@@ -617,14 +635,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         </div>
 
-        <div class="edit-phone common-flex font-color1">
+        <div class="edit-phone common-flex font-color1" id="user_contact">
             <div class="edit-role common-block">
                 <div class="edit-role-row1 common-flex font-style-title">
                     电话
                 </div>
                 <div class="edit-role-row2 common-flex font-color2">
                     <div class="edit-role-col1  font-style3">
-                        1234-12345678-123
+                        <input id="user_contact_input" class="user_content_input" name="user_contact"
+                               placeholder="1234-12345678-123">
                     </div>
                     <div class="edit-role-col2 font-style-title">
                         <div class="edit-role-col2-1 font-color3 display-flex">
@@ -641,14 +660,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div>
 
 
-    <div class="edit-container3 common-flex">
+    <div class="edit-container3 common-flex" id="user_wx">
         <div class="edit-detail common-block">
             <div class="edit-detail-row1 common-flex font-color1 font-style-title">
                 微信
             </div>
             <div class="edit-detail-row2 common-flex font-color2">
                 <div class="edit-detail-col1  font-style3">
-                    asdfjkjsd7654skl
+                    <input id="user_wx_input" class="user_content_input" name="user_wx" placeholder="asdfjkjsd7654skl">
                 </div>
                 <div class="edit-detail-col2 font-style-title display-flex">
                     <div class="edit-detail-col2-1 font-color3 display-flex">
@@ -663,14 +682,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
     </div>
 
-    <div class="edit-container3 common-flex">
+    <div class="edit-container3 common-flex" id="user_email">
         <div class="edit-detail common-block">
             <div class="edit-detail-row1 common-flex font-color1 font-style-title">
                 邮箱
             </div>
             <div class="edit-detail-row2 common-flex font-color2">
                 <div class="edit-detail-col1 font-style3">
-                    xiankanren@xiankanrenapp.com
+                    <input id="user_email_input" class="user_content_input" name="user_email"
+                           placeholder="xiankanren@xiankanrenapp.com">
                 </div>
                 <div class="edit-detail-col2 font-style-title display-flex">
                     <div class="edit-detail-col2-1 font-color3 display-flex">
@@ -833,8 +853,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div>
 
 
-
-
     <div class="filter-container3">
         <div class="bc-row-start font-style1 font-color1 tag-padding">
             自定义
@@ -952,7 +970,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         3、先看人在本服务中所涉及的图形、文字或其组成，以及其他先看人标志及产品、服务名称（以下统称“先看人标识”），其著作权或商标权归先看人所有。未经先看人事先书面同意，用户不得将先看人标识以任何方式展示或使用或作其他处理，也不得向他人表明用户有权展示、使用、或其他有权处理先看人标识的行为。
         4、上述及其他任何先看人或相关广告商依法拥有的知识产权均受到法律保护，未经先看人或相关广告商书面许可，用户不得以任何形式进行使用或创造相关衍生作品。
         十、法律责任
-        1、如果先看人发现或收到他人举报或投诉用户违反本协议约定的，先看人有权不经通知随时对相关内容，包括但不限于用户资料、聊天记录进行审查、删除，并视情节轻重对违规帐号处以包括但不限于警告、帐号封禁 、设备封禁 、功能封禁 的处罚，且通知用户处理结果。
+        1、如果先看人发现或收到他人举报或投诉用户违反本协议约定的，先看人有权不经通知随时对相关内容，包括但不限于用户资料、聊天记录进行审查、删除，并视情节轻重对违规帐号处以包括但不限于警告、帐号封禁 、设备封禁 、功能封禁
+        的处罚，且通知用户处理结果。
         2、因违反用户协议被封禁的用户，将在封禁期限届满后自助解封。其中，被实施功能封禁的用户会在封禁期届满后自动恢复被封禁功能。被封禁用户可向先看人网站相关页面提交申诉，先看人将对申诉进行审查，并自行合理判断决定是否变更处罚措施。
         3、用户理解并同意，先看人有权依合理判断对违反有关法律法规或本协议规定的行为进行处罚，对违法违规的任何用户采取适当的法律行动，并依据法律法规保存有关信息向有关部门报告等，用户应承担由此而产生的一切法律责任。
         4、用户理解并同意，因用户违反本协议约定，导致或产生的任何第三方主张的任何索赔、要求或损失，包括合理的律师费，用户应当赔偿先看人与合作公司、关联公司，并使之免受损害。
@@ -1019,13 +1038,42 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <!--- Jimmy Edit ---->
 <script>
+    window.onload = function () {
+        document.getElementById("user_name").addEventListener("click", function () {
+            document.getElementById("user_name_input").focus();
+        });
+        document.getElementById("user_role").addEventListener("click", function () {
+            document.getElementById("user_role_input").focus();
+        });
+        document.getElementById("user_company").addEventListener("click", function () {
+            document.getElementById("user_company_input").focus();
+        });
+        document.getElementById("user_detail").addEventListener("click", function () {
+            document.getElementById("user_detail_input").focus();
+        });
+        document.getElementById("user_contact").addEventListener("click", function () {
+            document.getElementById("user_contact_input").focus();
+        });
+        document.getElementById("user_wx").addEventListener("click", function () {
+            document.getElementById("user_wx_input").focus();
+        });
+        document.getElementById("user_email").addEventListener("click", function () {
+            document.getElementById("user_email_input").focus();
+        })
+    };
 
-    function backgroundch(){
+    // 变a的颜色为红，变b的颜色为黑，变input值为c
+    function userTypeChoose(a, b, c) {
+        document.getElementById(a).style.color = "#d82d53";
+        document.getElementById(b).style.color = "#888888";
+        document.getElementById("user_type").value = c;
+    }
+    function backgroundch() {
         document.getElementById("con-bg-background").style.visibility = "visible";
         location.href = "#user-agreement";
     }
 
-    function returnback(){
+    function returnback() {
         document.getElementById("con-bg-background").style.visibility = "hidden";
         location.href = "#edit-agreement-div";
     }

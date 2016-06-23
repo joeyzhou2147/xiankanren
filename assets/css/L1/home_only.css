@@ -436,6 +436,14 @@
             margin-top: 1rem;
         }
 
+        .home-card-row5-video{
+            background: transparent url('../../../assets/images/poster/poster1.png') 50% 50% no-repeat;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
         .home-background{
             width: 100%;
             height: 90%;
